@@ -27,7 +27,7 @@ wheels/
 *.ipynb_checkpoints/ 
 *.csv 
 *.xlsx 
-*.json 
+!complant/data/compounds.json
 *.db 
 *.sqlite 
 *.log 
