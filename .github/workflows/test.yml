@@ -1,0 +1,44 @@
+name: Testar COMPLANT
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests
+        pip install -e .
+    
+    - name: Test database
+      run: |
+        python -c "from complant.db_manager import DatabaseManager; db = DatabaseManager(); print('✅ Database OK')"
+    
+    - name: Test Wikipedia
+      run: |
+        python -c "from complant.search.wikipedia import buscar_foto_wikipedia; print('✅ Wikipedia OK')"
+    
+    - name: Test PubMed
+      run: |
+        python -c "from complant.search.pubmed import buscar_pubmed; print('✅ PubMed OK')"
+    
+    - name: Test Main
+      run: |
+        python -c "from complant.main import carregar_banco; carregar_banco(); print('✅ Main OK')"
+    
+    - name: Run full test
+      run: |
+        python testar.py
