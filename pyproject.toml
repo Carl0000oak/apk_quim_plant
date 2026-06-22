@@ -1,4 +1,4 @@
-﻿[build-system]
+[build-system]
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
@@ -11,6 +11,5 @@ readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.8"
 dependencies = [
-    "requests>=2.31.0",
-    "pandas>=2.0.0"
+    "requests>=2.31.0"
 ]
