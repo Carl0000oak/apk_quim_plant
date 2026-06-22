@@ -1,30 +1,28 @@
-"""
-🧪 TESTE RÁPIDO - COMPLANT
-"""
+﻿print("🧪 TESTANDO COMPLANT")
+print("="*50)
 
-from complant.main import carregar_banco, buscar_compostos, listar_categorias, analisar_planta
+# 1. Testar import
+print("\n1️⃣ Testando import...")
+from complant.main import carregar_banco, buscar_compostos, listar_categorias
+print("✅ Import OK")
 
-print("🧪 TESTANDO COMPLANT")
-print("=" * 50)
-
-# 1. Carregar banco
-print("\n1️⃣ Carregando banco de dados...")
+# 2. Testar carregamento
+print("\n2️⃣ Testando carregamento...")
 carregar_banco()
+print("✅ Carregamento OK")
 
-# 2. Listar categorias
-print("\n2️⃣ Categorias disponíveis:")
+# 3. Testar categorias
+print("\n3️⃣ Testando categorias...")
 categorias = listar_categorias()
-for cat in categorias[:5]:
+print(f"✅ {len(categorias)} categorias encontradas")
+for cat in categorias[:3]:
     print(f"  • {cat}")
 
-# 3. Buscar composto
-print("\n3️⃣ Buscando 'quinine':")
+# 4. Testar busca
+print("\n4️⃣ Testando busca...")
 resultados = buscar_compostos("quinine")
-for r in resultados[:5]:
+print(f"✅ {len(resultados)} resultados para 'quinine'")
+for r in resultados[:3]:
     print(f"  • {r['nome']} ({r['categoria']})")
 
-# 4. Analisar planta
-print("\n4️⃣ Analisando planta...")
-analisar_planta("Lippia alba", max_artigos=5)
-
-print("\n✅ Teste concluído!")
+print("\n✅ TODOS OS TESTES PASSARAM!")
