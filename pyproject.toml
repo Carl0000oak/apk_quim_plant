@@ -5,9 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "apk_quim_plant"
 version = "1.0.0"
-description = "Analise Fitoquimica"
+description = "Analise Fitoquimica de Plantas"
 authors = [{name = "Carl", email = "carl@email.com"}]
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.8"
-dependencies = ["requests>=2.31.0"]
+dependencies = [
+    "requests>=2.31.0",
+    "pandas>=2.0.0"
+]
