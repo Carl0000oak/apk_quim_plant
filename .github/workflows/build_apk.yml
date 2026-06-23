@@ -11,10 +11,10 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
     
@@ -33,17 +33,14 @@ jobs:
         flutter config --enable-linux-desktop
         flutter doctor -v
     
-    - name: Build APK (non-interactive)
+    - name: Build APK
       run: |
-        # Definir variável para evitar prompts
-        export FLET_NO_INTERACTIVE=1
-        # Construir com --yes
-        flet build apk --yes
-      env:
-        FLET_NO_INTERACTIVE: 1
+        yes | flet build apk --verbose
     
     - name: Upload APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: apk_quim_plant
         path: build/apk/*.apk
+        compression-level: 0
+        if-no-files-found: error
