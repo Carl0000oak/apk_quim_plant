@@ -1,0 +1,5599 @@
+{
+  "version": "1.0.0",
+  "last_update": "2024-06-23",
+  "total": 20000,
+  "synonym_rules": {
+    "greek_letters": {
+      "α": [
+        "alpha",
+        "a"
+      ],
+      "β": [
+        "beta",
+        "b"
+      ],
+      "γ": [
+        "gamma",
+        "g"
+      ],
+      "δ": [
+        "delta",
+        "d"
+      ],
+      "ε": [
+        "epsilon",
+        "e"
+      ],
+      "ζ": [
+        "zeta",
+        "z"
+      ],
+      "η": [
+        "eta",
+        "h"
+      ],
+      "θ": [
+        "theta",
+        "th"
+      ],
+      "ι": [
+        "iota",
+        "i"
+      ],
+      "κ": [
+        "kappa",
+        "k"
+      ],
+      "λ": [
+        "lambda",
+        "l"
+      ],
+      "μ": [
+        "mu",
+        "m"
+      ],
+      "ν": [
+        "nu",
+        "n"
+      ],
+      "ξ": [
+        "xi",
+        "x"
+      ],
+      "ο": [
+        "omicron",
+        "o"
+      ],
+      "π": [
+        "pi",
+        "p"
+      ],
+      "ρ": [
+        "rho",
+        "r"
+      ],
+      "σ": [
+        "sigma",
+        "s"
+      ],
+      "τ": [
+        "tau",
+        "t"
+      ],
+      "υ": [
+        "upsilon",
+        "u"
+      ],
+      "φ": [
+        "phi",
+        "ph"
+      ],
+      "χ": [
+        "chi",
+        "ch"
+      ],
+      "ψ": [
+        "psi",
+        "ps"
+      ],
+      "ω": [
+        "omega",
+        "o"
+      ]
+    },
+    "suffix_variations": {
+      "ine": [
+        "in",
+        "ina"
+      ],
+      "ol": [
+        "ole",
+        "olum"
+      ],
+      "ic_acid": [
+        "ate",
+        "ic acid"
+      ],
+      "oside": [
+        "osid",
+        "oside"
+      ],
+      "genin": [
+        "genine",
+        "genin"
+      ]
+    },
+    "common_prefixes": {
+      "dehydro": [
+        "dehydro-",
+        "dehydro"
+      ],
+      "dihydro": [
+        "dihydro-",
+        "dihydro"
+      ],
+      "acetyl": [
+        "acetyl-",
+        "acetyl",
+        "acet-"
+      ],
+      "methyl": [
+        "methyl-",
+        "methyl",
+        "me-"
+      ],
+      "ethyl": [
+        "ethyl-",
+        "ethyl",
+        "et-"
+      ],
+      "hydroxy": [
+        "hydroxy-",
+        "hydroxy",
+        "oh-"
+      ]
+    }
+  },
+  "synonyms": {
+    "ALKALOIDS": {
+      "quinine": {
+        "synonyms": [
+          "quinine",
+          "chinine",
+          "quinine sulfate",
+          "quinine hydrochloride",
+          "(8α,9R)-6'-methoxycinchonan-9-ol"
+        ],
+        "common_misspellings": [
+          "quinin",
+          "quinnine",
+          "chinin"
+        ],
+        "brand_names": [
+          "Qualaquin",
+          "Quinamm",
+          "Quinerva"
+        ]
+      },
+      "quinidine": {
+        "synonyms": [
+          "quinidine",
+          "chinidine",
+          "quinidine sulfate",
+          "(9S)-6'-methoxycinchonan-9-ol"
+        ],
+        "common_misspellings": [
+          "quinidin",
+          "quinnidine"
+        ],
+        "brand_names": [
+          "Quinaglute",
+          "Quinidex",
+          "Cardioquin"
+        ]
+      },
+      "cinchonine": {
+        "synonyms": [
+          "cinchonine",
+          "cinchonine sulfate",
+          "(8S,9R)-cinchonan-9-ol"
+        ],
+        "common_misspellings": [
+          "cinchonin",
+          "cinchonina"
+        ]
+      },
+      "cinchonidine": {
+        "synonyms": [
+          "cinchonidine",
+          "(8S,9S)-cinchonan-9-ol"
+        ],
+        "common_misspellings": [
+          "cinchonidin",
+          "cinchonidina"
+        ]
+      },
+      "morphine": {
+        "synonyms": [
+          "morphine",
+          "morphia",
+          "morphine sulfate",
+          "(5α,6α)-7,8-didehydro-4,5-epoxy-17-methylmorphinan-3,6-diol"
+        ],
+        "common_misspellings": [
+          "morphin",
+          "morfine"
+        ],
+        "brand_names": [
+          "Duramorph",
+          "Astramorph",
+          "MS Contin"
+        ]
+      },
+      "codeine": {
+        "synonyms": [
+          "codeine",
+          "methylmorphine",
+          "codeine phosphate",
+          "3-methylmorphine"
+        ],
+        "common_misspellings": [
+          "codein",
+          "codiene"
+        ],
+        "brand_names": [
+          "Tylenol #3",
+          "Codeine Contin"
+        ]
+      },
+      "thebaine": {
+        "synonyms": [
+          "thebaine",
+          "paramorphine",
+          "dimethylmorphine"
+        ],
+        "common_misspellings": [
+          "thebain",
+          "thebenine"
+        ]
+      },
+      "papaverine": {
+        "synonyms": [
+          "papaverine",
+          "papaverine hydrochloride",
+          "1-(3,4-dimethoxybenzyl)-6,7-dimethoxyisoquinoline"
+        ],
+        "common_misspellings": [
+          "papaverin",
+          "papaverina"
+        ],
+        "brand_names": [
+          "Pavabid",
+          "Cerabid"
+        ]
+      },
+      "noscapine": {
+        "synonyms": [
+          "noscapine",
+          "narcotine",
+          "noscapine hydrochloride",
+          "(-)-narcotine"
+        ],
+        "common_misspellings": [
+          "noscapin",
+          "noskapine"
+        ]
+      },
+      "caffeine": {
+        "synonyms": [
+          "caffeine",
+          "caffein",
+          "1,3,7-trimethylxanthine",
+          "guaranine",
+          "theine",
+          "coffeine"
+        ],
+        "common_misspellings": [
+          "caffein",
+          "caféine"
+        ],
+        "brand_names": [
+          "NoDoz",
+          "Vivarin",
+          "Caffedrine"
+        ]
+      },
+      "theophylline": {
+        "synonyms": [
+          "theophylline",
+          "1,3-dimethylxanthine",
+          "theophyllin"
+        ],
+        "common_misspellings": [
+          "theophyllin",
+          "teofilina"
+        ],
+        "brand_names": [
+          "Theo-Dur",
+          "Quibron",
+          "Slo-Bid"
+        ]
+      },
+      "theobromine": {
+        "synonyms": [
+          "theobromine",
+          "3,7-dimethylxanthine",
+          "xantheose"
+        ],
+        "common_misspellings": [
+          "theobromin",
+          "theobroma"
+        ]
+      },
+      "nicotine": {
+        "synonyms": [
+          "nicotine",
+          "3-(1-methylpyrrolidin-2-yl)pyridine",
+          "(-)-nicotine"
+        ],
+        "common_misspellings": [
+          "nicotin",
+          "nikotine"
+        ]
+      },
+      "anabasine": {
+        "synonyms": [
+          "anabasine",
+          "3-(piperidin-2-yl)pyridine"
+        ],
+        "common_misspellings": [
+          "anabasin",
+          "anabasina"
+        ]
+      },
+      "nornicotine": {
+        "synonyms": [
+          "nornicotine",
+          "3-(pyrrolidin-2-yl)pyridine"
+        ],
+        "common_misspellings": [
+          "nornicotin",
+          "nor-nicotine"
+        ]
+      },
+      "cotinine": {
+        "synonyms": [
+          "cotinine",
+          "1-methyl-5-(3-pyridinyl)-2-pyrrolidinone"
+        ],
+        "common_misspellings": [
+          "cotinin",
+          "cotinina"
+        ]
+      },
+      "atropine": {
+        "synonyms": [
+          "atropine",
+          "atropine sulfate",
+          "hyoscyamine racemate",
+          "(±)-hyoscyamine"
+        ],
+        "common_misspellings": [
+          "atropin",
+          "atropina"
+        ],
+        "brand_names": [
+          "AtroPen",
+          "Isopto Atropine"
+        ]
+      },
+      "scopolamine": {
+        "synonyms": [
+          "scopolamine",
+          "hyoscine",
+          "scopolamine hydrobromide"
+        ],
+        "common_misspellings": [
+          "scopolamin",
+          "scopalomine"
+        ],
+        "brand_names": [
+          "Transderm Scop"
+        ]
+      },
+      "hyoscyamine": {
+        "synonyms": [
+          "hyoscyamine",
+          "(-)-hyoscyamine",
+          "atropine levorotatory"
+        ],
+        "common_misspellings": [
+          "hyoscyamin",
+          "hyoscine"
+        ],
+        "brand_names": [
+          "Levsin",
+          "Anaspaz"
+        ]
+      },
+      "reserpine": {
+        "synonyms": [
+          "reserpine",
+          "serpasil",
+          "3β,20α-yohimban-16β-carboxylate methyl ester"
+        ],
+        "common_misspellings": [
+          "reserpin",
+          "resarpine"
+        ],
+        "brand_names": [
+          "Serpasil"
+        ]
+      },
+      "yohimbine": {
+        "synonyms": [
+          "yohimbine",
+          "aphrodine",
+          "corynine",
+          "methyl 17-hydroxy-20α-yohimban-16β-carboxylate"
+        ],
+        "common_misspellings": [
+          "yohimbin",
+          "yohimbe"
+        ]
+      },
+      "ajmaline": {
+        "synonyms": [
+          "ajmaline",
+          "ajmalan",
+          "rauwolfia alkaloid"
+        ],
+        "common_misspellings": [
+          "ajmalin",
+          "ajmeline"
+        ]
+      },
+      "berberine": {
+        "synonyms": [
+          "berberine",
+          "umbellatine",
+          "5,6-dihydro-9,10-dimethoxybenzo[g]-1,3-benzodioxolo[5,6-a]quinolizinium"
+        ],
+        "common_misspellings": [
+          "berberin",
+          "berberina"
+        ]
+      },
+      "palmatine": {
+        "synonyms": [
+          "palmatine",
+          "fibraureine",
+          "calystigine"
+        ],
+        "common_misspellings": [
+          "palmatin",
+          "palmatina"
+        ]
+      },
+      "jatrorrhizine": {
+        "synonyms": [
+          "jatrorrhizine",
+          "jatrorrhizine chloride",
+          "neoprotopine"
+        ],
+        "common_misspellings": [
+          "jatrorrhizin",
+          "jatrorhizine"
+        ]
+      },
+      "columbamine": {
+        "synonyms": [
+          "columbamine",
+          "dehydroisocorydine"
+        ],
+        "common_misspellings": [
+          "columbamin",
+          "colombamine"
+        ]
+      },
+      "colchicine": {
+        "synonyms": [
+          "colchicine",
+          "colchicin",
+          "N-(5,6,7,9-tetrahydro-1,2,3,10-tetramethoxy-9-oxobenzo[a]heptalen-7-yl)acetamide"
+        ],
+        "common_misspellings": [
+          "colchicin",
+          "colchicina"
+        ]
+      },
+      "demecolcine": {
+        "synonyms": [
+          "demecolcine",
+          "colcemid",
+          "N-desacetylcolchicine"
+        ],
+        "common_misspellings": [
+          "demecolcin",
+          "deacetylcolchicine"
+        ]
+      },
+      "strychnine": {
+        "synonyms": [
+          "strychnine",
+          "strychnidin-10-one",
+          "strychnos alkaloid"
+        ],
+        "common_misspellings": [
+          "strychnin",
+          "strikhnine"
+        ]
+      },
+      "brucine": {
+        "synonyms": [
+          "brucine",
+          "2,3-dimethoxystrychnidin-10-one"
+        ],
+        "common_misspellings": [
+          "brucin",
+          "brucina"
+        ]
+      },
+      "ergotamine": {
+        "synonyms": [
+          "ergotamine",
+          "ergotamine tartrate",
+          "12'-hydroxy-2'-methyl-3',6',18-trioxo-ergotaman"
+        ],
+        "common_misspellings": [
+          "ergotamin",
+          "ergotamina"
+        ],
+        "brand_names": [
+          "Ergomar",
+          "Migergot"
+        ]
+      },
+      "ergonovine": {
+        "synonyms": [
+          "ergonovine",
+          "ergometrine",
+          "lysergic acid propanolamide"
+        ],
+        "common_misspellings": [
+          "ergonovin",
+          "ergometrin"
+        ]
+      },
+      "ergocristine": {
+        "synonyms": [
+          "ergocristine",
+          "ergocristine tartrate"
+        ],
+        "common_misspellings": [
+          "ergocristin",
+          "ergocristina"
+        ]
+      },
+      "vincristine": {
+        "synonyms": [
+          "vincristine",
+          "vincristine sulfate",
+          "leurocristine",
+          "22-oxovincaleukoblastine"
+        ],
+        "common_misspellings": [
+          "vincristin",
+          "vincristina"
+        ],
+        "brand_names": [
+          "Oncovin",
+          "Vincasar"
+        ]
+      },
+      "vinblastine": {
+        "synonyms": [
+          "vinblastine",
+          "vinblastine sulfate",
+          "vincaleukoblastine"
+        ],
+        "common_misspellings": [
+          "vinblastin",
+          "vinblastina"
+        ],
+        "brand_names": [
+          "Velban",
+          "Velsar"
+        ]
+      },
+      "vindoline": {
+        "synonyms": [
+          "vindoline",
+          "vindolin",
+          "methyl 3,4-didehydro-3α-hydroxy-4β-methoxyaspidospermidine-3β-carboxylate"
+        ],
+        "common_misspellings": [
+          "vindolin",
+          "vindolina"
+        ]
+      },
+      "catharanthine": {
+        "synonyms": [
+          "catharanthine",
+          "catharanthin",
+          "methyl 3,4-didehydroibogamine-18-carboxylate"
+        ],
+        "common_misspellings": [
+          "catharanthin",
+          "catharantine"
+        ]
+      },
+      "pilocarpine": {
+        "synonyms": [
+          "pilocarpine",
+          "pilocarpine hydrochloride",
+          "(3S,4R)-3-ethyl-4-[(1-methyl-1H-imidazol-5-yl)methyl]dihydrofuran-2(3H)-one"
+        ],
+        "common_misspellings": [
+          "pilocarpin",
+          "pilocarpina"
+        ],
+        "brand_names": [
+          "Isopto Carpine",
+          "Pilopine"
+        ]
+      },
+      "arecoline": {
+        "synonyms": [
+          "arecoline",
+          "methyl 1-methyl-1,2,5,6-tetrahydronicotinate"
+        ],
+        "common_misspellings": [
+          "arecolin",
+          "arecolina"
+        ]
+      },
+      "solanine": {
+        "synonyms": [
+          "solanine",
+          "solanin",
+          "α-solanine"
+        ],
+        "common_misspellings": [
+          "solanin",
+          "solanina"
+        ]
+      },
+      "solanidine": {
+        "synonyms": [
+          "solanidine",
+          "solanidin",
+          "solanid-5-en-3β-ol"
+        ],
+        "common_misspellings": [
+          "solanidin",
+          "solanidina"
+        ]
+      },
+      "chaconine": {
+        "synonyms": [
+          "chaconine",
+          "α-chaconine",
+          "solanine glycoside"
+        ],
+        "common_misspellings": [
+          "chaconin",
+          "chakonin"
+        ]
+      },
+      "capsaicin": {
+        "synonyms": [
+          "capsaicin",
+          "capsaicinoids",
+          "8-methyl-N-vanillyl-6-nonenamide"
+        ],
+        "common_misspellings": [
+          "capsaicin",
+          "capsacian"
+        ],
+        "brand_names": [
+          "Zostrix",
+          "Capsin"
+        ]
+      },
+      "dihydrocapsaicin": {
+        "synonyms": [
+          "dihydrocapsaicin",
+          "8-methyl-N-vanillylnonanamide"
+        ],
+        "common_misspellings": [
+          "dihydrocapsaicin",
+          "dihydrocapsaicina"
+        ]
+      },
+      "piperine": {
+        "synonyms": [
+          "piperine",
+          "1-piperoylpiperidine",
+          "piperin"
+        ],
+        "common_misspellings": [
+          "piperin",
+          "piperina"
+        ]
+      },
+      "chavicine": {
+        "synonyms": [
+          "chavicine",
+          "cis,trans-piperine isomer"
+        ],
+        "common_misspellings": [
+          "chavicin",
+          "chavicina"
+        ]
+      },
+      "coniine": {
+        "synonyms": [
+          "coniine",
+          "conine",
+          "2-propylpiperidine"
+        ],
+        "common_misspellings": [
+          "coniin",
+          "conina"
+        ]
+      },
+      "pseudoconhydrine": {
+        "synonyms": [
+          "pseudoconhydrine",
+          "conhydrine",
+          "4-hydroxyconiine"
+        ],
+        "common_misspellings": [
+          "pseudoconhydrin",
+          "pseudoconhydrina"
+        ]
+      },
+      "lobeline": {
+        "synonyms": [
+          "lobeline",
+          "lobeline sulfate",
+          "2-[(2R,6S)-6-[(2S)-2-hydroxy-2-phenylethyl]-1-methylpiperidin-2-yl]-1-phenylethanone"
+        ],
+        "common_misspellings": [
+          "lobelin",
+          "lobelina"
+        ]
+      },
+      "lobelanidine": {
+        "synonyms": [
+          "lobelanidine",
+          "lobelanidin"
+        ],
+        "common_misspellings": [
+          "lobelanidin",
+          "lobelanidina"
+        ]
+      },
+      "mescaline": {
+        "synonyms": [
+          "mescaline",
+          "3,4,5-trimethoxyphenethylamine",
+          "peyote alkaloid"
+        ],
+        "common_misspellings": [
+          "mescalin",
+          "meskalina"
+        ]
+      },
+      "peyote_alkaloid": {
+        "synonyms": [
+          "peyote alkaloid",
+          "mescaline",
+          "peyote"
+        ],
+        "common_misspellings": [
+          "peyote",
+          "peyotl"
+        ]
+      },
+      "ephedrine": {
+        "synonyms": [
+          "ephedrine",
+          "ephedrine sulfate",
+          "2-methylamino-1-phenylpropan-1-ol"
+        ],
+        "common_misspellings": [
+          "ephedrin",
+          "efedrina"
+        ],
+        "brand_names": [
+          "Bronkaid",
+          "Primatene"
+        ]
+      },
+      "pseudoephedrine": {
+        "synonyms": [
+          "pseudoephedrine",
+          "pseudoephedrine hydrochloride",
+          "(+)-pseudoephedrine"
+        ],
+        "common_misspellings": [
+          "pseudoephedrin",
+          "pseudoefedrina"
+        ],
+        "brand_names": [
+          "Sudafed",
+          "Afrinol"
+        ]
+      },
+      "norephedrine": {
+        "synonyms": [
+          "norephedrine",
+          "phenylpropanolamine",
+          "norpseudoephedrine"
+        ],
+        "common_misspellings": [
+          "norephedrin",
+          "nor-ephedrine"
+        ]
+      },
+      "harmine": {
+        "synonyms": [
+          "harmine",
+          "telepathine",
+          "7-methoxy-1-methyl-β-carboline"
+        ],
+        "common_misspellings": [
+          "harmin",
+          "harmina"
+        ]
+      },
+      "harmaline": {
+        "synonyms": [
+          "harmaline",
+          "harmidin",
+          "7-methoxy-1-methyl-4,9-dihydro-β-carboline"
+        ],
+        "common_misspellings": [
+          "harmalin",
+          "harmalina"
+        ]
+      },
+      "harman": {
+        "synonyms": [
+          "harman",
+          "1-methyl-β-carboline",
+          "harman base"
+        ],
+        "common_misspellings": [
+          "harman",
+          "harmane"
+        ]
+      },
+      "ibogaine": {
+        "synonyms": [
+          "ibogaine",
+          "ibogain",
+          "12-methoxyibogamine"
+        ],
+        "common_misspellings": [
+          "ibogain",
+          "ibogaina"
+        ]
+      },
+      "voacangine": {
+        "synonyms": [
+          "voacangine",
+          "voacangin",
+          "12-methoxyibogamine-18-carboxylate methyl ester"
+        ],
+        "common_misspellings": [
+          "voacangin",
+          "vocangine"
+        ]
+      },
+      "tubocurarine": {
+        "synonyms": [
+          "tubocurarine",
+          "tubocurarine chloride",
+          "d-tubocurarine"
+        ],
+        "common_misspellings": [
+          "tubocurarin",
+          "tubocurare"
+        ],
+        "brand_names": [
+          "Tubarine"
+        ]
+      },
+      "atracurium": {
+        "synonyms": [
+          "atracurium",
+          "atracurium besylate",
+          "atracurium besilate"
+        ],
+        "common_misspellings": [
+          "atracurium",
+          "atrakurium"
+        ],
+        "brand_names": [
+          "Tracrium"
+        ]
+      },
+      "cocaine": {
+        "synonyms": [
+          "cocaine",
+          "benzoylmethylecgonine",
+          "cocaine hydrochloride"
+        ],
+        "common_misspellings": [
+          "cocain",
+          "cocaína"
+        ]
+      },
+      "benzoylecgonine": {
+        "synonyms": [
+          "benzoylecgonine",
+          "benzoylecgonin",
+          "cocaine metabolite"
+        ],
+        "common_misspellings": [
+          "benzoylecgonin",
+          "benzoylecgonina"
+        ]
+      },
+      "tetrahydrocannabinol": {
+        "synonyms": [
+          "tetrahydrocannabinol",
+          "THC",
+          "Δ9-tetrahydrocannabinol",
+          "delta-9-THC"
+        ],
+        "common_misspellings": [
+          "tetrahydrocannabinol",
+          "THC"
+        ],
+        "brand_names": [
+          "Marinol",
+          "Syndros"
+        ]
+      },
+      "cannabinol": {
+        "synonyms": [
+          "cannabinol",
+          "CBN",
+          "cannabinol"
+        ],
+        "common_misspellings": [
+          "cannabinol",
+          "CBN"
+        ]
+      },
+      "cannabidiol": {
+        "synonyms": [
+          "cannabidiol",
+          "CBD",
+          "cannabidiol",
+          "2-[(1R,6R)-3-methyl-6-(prop-1-en-2-yl)cyclohex-2-en-1-yl]-5-pentylbenzene-1,3-diol"
+        ],
+        "common_misspellings": [
+          "cannabidiol",
+          "CBD"
+        ],
+        "brand_names": [
+          "Epidiolex",
+          "Sativex"
+        ]
+      },
+      "kavalactones": {
+        "synonyms": [
+          "kavalactones",
+          "kava pyrones",
+          "kavain"
+        ],
+        "common_misspellings": [
+          "kavalactones",
+          "kava lactones"
+        ]
+      },
+      "yangonin": {
+        "synonyms": [
+          "yangonin",
+          "kava lactone",
+          "5,6-dehydrokavain"
+        ],
+        "common_misspellings": [
+          "yangonin",
+          "yangonine"
+        ]
+      },
+      "methysticin": {
+        "synonyms": [
+          "methysticin",
+          "methysticine",
+          "kava lactone"
+        ],
+        "common_misspellings": [
+          "methysticin",
+          "methisticin"
+        ]
+      },
+      "mitragynine": {
+        "synonyms": [
+          "mitragynine",
+          "mitragynine",
+          "9-methoxycorynantheidine"
+        ],
+        "common_misspellings": [
+          "mitragynine",
+          "mitragynin"
+        ]
+      },
+      "paynantheine": {
+        "synonyms": [
+          "paynantheine",
+          "paynanthine",
+          "mitragyna alkaloid"
+        ],
+        "common_misspellings": [
+          "paynantheine",
+          "paynanthein"
+        ]
+      },
+      "speciogynine": {
+        "synonyms": [
+          "speciogynine",
+          "speciogynine",
+          "mitragyna alkaloid"
+        ],
+        "common_misspellings": [
+          "speciogynine",
+          "speciogynin"
+        ]
+      },
+      "aconitine": {
+        "synonyms": [
+          "aconitine",
+          "aconitine",
+          "aconitane alkaloid"
+        ],
+        "common_misspellings": [
+          "aconitine",
+          "aconitin"
+        ]
+      },
+      "mesaconitine": {
+        "synonyms": [
+          "mesaconitine",
+          "mesaconitine",
+          "aconitine analog"
+        ],
+        "common_misspellings": [
+          "mesaconitine",
+          "mesaconitin"
+        ]
+      },
+      "hypaconitine": {
+        "synonyms": [
+          "hypaconitine",
+          "hypaconitine",
+          "aconitine analog"
+        ],
+        "common_misspellings": [
+          "hypaconitine",
+          "hypaconitin"
+        ]
+      },
+      "benzoylaconine": {
+        "synonyms": [
+          "benzoylaconine",
+          "benzoylaconine",
+          "aconitine analog"
+        ],
+        "common_misspellings": [
+          "benzoylaconine",
+          "benzoylaconin"
+        ]
+      },
+      "delphinine": {
+        "synonyms": [
+          "delphinine",
+          "delphinine",
+          "diterpenoid alkaloid"
+        ],
+        "common_misspellings": [
+          "delphinine",
+          "delphin"
+        ]
+      },
+      "ajaconine": {
+        "synonyms": [
+          "ajaconine",
+          "ajaconine",
+          "aconitum alkaloid"
+        ],
+        "common_misspellings": [
+          "ajaconine",
+          "ajaconin"
+        ]
+      },
+      "lycoctonine": {
+        "synonyms": [
+          "lycoctonine",
+          "lycoctonine",
+          "diterpenoid alkaloid"
+        ],
+        "common_misspellings": [
+          "lycoctonine",
+          "lycoctonin"
+        ]
+      },
+      "cammaconine": {
+        "synonyms": [
+          "cammaconine",
+          "cammaconine",
+          "aconitine analog"
+        ],
+        "common_misspellings": [
+          "cammaconine",
+          "cammaconin"
+        ]
+      },
+      "tomatidine": {
+        "synonyms": [
+          "tomatidine",
+          "tomatidine",
+          "tomatine aglycone",
+          "5α-tomatidan-3β-ol"
+        ],
+        "common_misspellings": [
+          "tomatidine",
+          "tomatidin"
+        ]
+      },
+      "diosgenin": {
+        "synonyms": [
+          "diosgenin",
+          "diosgenin",
+          "(25R)-spirost-5-en-3β-ol"
+        ],
+        "common_misspellings": [
+          "diosgenin",
+          "diosgenina"
+        ]
+      },
+      "sarsasapogenin": {
+        "synonyms": [
+          "sarsasapogenin",
+          "sarsasapogenin",
+          "(25S)-spirostan-3β-ol"
+        ],
+        "common_misspellings": [
+          "sarsasapogenin",
+          "sarsasapogenina"
+        ]
+      },
+      "smilagenin": {
+        "synonyms": [
+          "smilagenin",
+          "smilagenin",
+          "(25R)-spirostan-3β-ol"
+        ],
+        "common_misspellings": [
+          "smilagenin",
+          "smilagenina"
+        ]
+      },
+      "tigogenin": {
+        "synonyms": [
+          "tigogenin",
+          "tigogenin",
+          "(25R)-5α-spirostan-3β-ol"
+        ],
+        "common_misspellings": [
+          "tigogenin",
+          "tigogenina"
+        ]
+      },
+      "gitogenin": {
+        "synonyms": [
+          "gitogenin",
+          "gitogenin",
+          "spirostan-3β-ol"
+        ],
+        "common_misspellings": [
+          "gitogenin",
+          "gitogenina"
+        ]
+      },
+      "chlorogenin": {
+        "synonyms": [
+          "chlorogenin",
+          "chlorogenin",
+          "spirostan-3β-ol"
+        ],
+        "common_misspellings": [
+          "chlorogenin",
+          "chlorogenina"
+        ]
+      },
+      "rubijervine": {
+        "synonyms": [
+          "rubijervine",
+          "rubijervine",
+          "jerveratrum alkaloid"
+        ],
+        "common_misspellings": [
+          "rubijervine",
+          "rubijervin"
+        ]
+      },
+      "veratramine": {
+        "synonyms": [
+          "veratramine",
+          "veratramine",
+          "Veratrum alkaloid"
+        ],
+        "common_misspellings": [
+          "veratramine",
+          "veratramin"
+        ]
+      },
+      "cyclopamine": {
+        "synonyms": [
+          "cyclopamine",
+          "cyclopamine",
+          "Veratrum alkaloid",
+          "11-deoxojervine"
+        ],
+        "common_misspellings": [
+          "cyclopamine",
+          "cyclopamin"
+        ]
+      },
+      "jervine": {
+        "synonyms": [
+          "jervine",
+          "jervine",
+          "Veratrum alkaloid"
+        ],
+        "common_misspellings": [
+          "jervine",
+          "jervin"
+        ]
+      },
+      "protoveratrine": {
+        "synonyms": [
+          "protoveratrine",
+          "protoveratrine",
+          "veratrine alkaloid"
+        ],
+        "common_misspellings": [
+          "protoveratrine",
+          "protoveratrin"
+        ]
+      },
+      "germine": {
+        "synonyms": [
+          "germine",
+          "germine",
+          "veratrine alkaloid"
+        ],
+        "common_misspellings": [
+          "germine",
+          "germin"
+        ]
+      },
+      "veracevine": {
+        "synonyms": [
+          "veracevine",
+          "veracevine",
+          "veratrine alkaloid"
+        ],
+        "common_misspellings": [
+          "veracevine",
+          "veracevin"
+        ]
+      },
+      "cevadine": {
+        "synonyms": [
+          "cevadine",
+          "cevadine",
+          "veratrine alkaloid"
+        ],
+        "common_misspellings": [
+          "cevadine",
+          "cevadin"
+        ]
+      },
+      "veratridine": {
+        "synonyms": [
+          "veratridine",
+          "veratridine",
+          "veratrine alkaloid"
+        ],
+        "common_misspellings": [
+          "veratridine",
+          "veratridin"
+        ]
+      },
+      "sabadine": {
+        "synonyms": [
+          "sabadine",
+          "sabadine",
+          "veratrine alkaloid"
+        ],
+        "common_misspellings": [
+          "sabadine",
+          "sabadin"
+        ]
+      },
+      "sabinine": {
+        "synonyms": [
+          "sabinine",
+          "sabinine",
+          "veratrine alkaloid"
+        ],
+        "common_misspellings": [
+          "sabinine",
+          "sabinin"
+        ]
+      },
+      "sparteine": {
+        "synonyms": [
+          "sparteine",
+          "sparteine",
+          "lupinidine",
+          "(-)-sparteine"
+        ],
+        "common_misspellings": [
+          "sparteine",
+          "spartein"
+        ]
+      },
+      "lupanine": {
+        "synonyms": [
+          "lupanine",
+          "lupanine",
+          "lupin alkaloid",
+          "(-)-lupanine"
+        ],
+        "common_misspellings": [
+          "lupanine",
+          "lupanin"
+        ]
+      },
+      "cytisine": {
+        "synonyms": [
+          "cytisine",
+          "cytisine",
+          "baptitoxine",
+          "cytisine",
+          "ulexine"
+        ],
+        "common_misspellings": [
+          "cytisine",
+          "cytisin"
+        ]
+      },
+      "anagyrine": {
+        "synonyms": [
+          "anagyrine",
+          "anagyrine",
+          "lupin alkaloid"
+        ],
+        "common_misspellings": [
+          "anagyrine",
+          "anagyrin"
+        ]
+      },
+      "thermopsine": {
+        "synonyms": [
+          "thermopsine",
+          "thermopsine",
+          "quino lizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "thermopsine",
+          "thermopsin"
+        ]
+      },
+      "matrine": {
+        "synonyms": [
+          "matrine",
+          "matrine",
+          "sophora alkaloid",
+          "(-)-matrine"
+        ],
+        "common_misspellings": [
+          "matrine",
+          "matrin"
+        ]
+      },
+      "oxymatrine": {
+        "synonyms": [
+          "oxymatrine",
+          "oxymatrine",
+          "matrine N-oxide"
+        ],
+        "common_misspellings": [
+          "oxymatrine",
+          "oxymatrin"
+        ]
+      },
+      "sophocarpine": {
+        "synonyms": [
+          "sophocarpine",
+          "sophocarpine",
+          "sophora alkaloid"
+        ],
+        "common_misspellings": [
+          "sophocarpine",
+          "sophocarpin"
+        ]
+      },
+      "sophoridine": {
+        "synonyms": [
+          "sophoridine",
+          "sophoridine",
+          "sophora alkaloid"
+        ],
+        "common_misspellings": [
+          "sophoridine",
+          "sophoridin"
+        ]
+      },
+      "lehmannine": {
+        "synonyms": [
+          "lehmannine",
+          "lehmannine",
+          "sophora alkaloid"
+        ],
+        "common_misspellings": [
+          "lehmannine",
+          "lehmannin"
+        ]
+      },
+      "aloperine": {
+        "synonyms": [
+          "aloperine",
+          "aloperine",
+          "sophora alkaloid"
+        ],
+        "common_misspellings": [
+          "aloperine",
+          "aloperin"
+        ]
+      },
+      "leontine": {
+        "synonyms": [
+          "leontine",
+          "leontine",
+          "sophora alkaloid"
+        ],
+        "common_misspellings": [
+          "leontine",
+          "leontin"
+        ]
+      },
+      "erysotrine": {
+        "synonyms": [
+          "erysotrine",
+          "erysotrine",
+          "Erythrina alkaloid"
+        ],
+        "common_misspellings": [
+          "erysotrine",
+          "erysotrin"
+        ]
+      },
+      "erysovine": {
+        "synonyms": [
+          "erysovine",
+          "erysovine",
+          "Erythrina alkaloid"
+        ],
+        "common_misspellings": [
+          "erysovine",
+          "erysovin"
+        ]
+      },
+      "erythraline": {
+        "synonyms": [
+          "erythraline",
+          "erythraline",
+          "Erythrina alkaloid"
+        ],
+        "common_misspellings": [
+          "erythraline",
+          "erythralin"
+        ]
+      },
+      "erythravine": {
+        "synonyms": [
+          "erythravine",
+          "erythravine",
+          "Erythrina alkaloid"
+        ],
+        "common_misspellings": [
+          "erythravine",
+          "erythravin"
+        ]
+      },
+      "coccidinine": {
+        "synonyms": [
+          "coccidinine",
+          "coccidinine",
+          "Erythrina alkaloid"
+        ],
+        "common_misspellings": [
+          "coccidinine",
+          "coccidinin"
+        ]
+      },
+      "coccine": {
+        "synonyms": [
+          "coccine",
+          "coccine",
+          "Erythrina alkaloid"
+        ],
+        "common_misspellings": [
+          "coccine",
+          "coccin"
+        ]
+      },
+      "coccuvine": {
+        "synonyms": [
+          "coccuvine",
+          "coccuvine",
+          "Erythrina alkaloid"
+        ],
+        "common_misspellings": [
+          "coccuvine",
+          "coccuvin"
+        ]
+      },
+      "coccidine": {
+        "synonyms": [
+          "coccidine",
+          "coccidine",
+          "Erythrina alkaloid"
+        ],
+        "common_misspellings": [
+          "coccidine",
+          "coccidin"
+        ]
+      },
+      "crotaline": {
+        "synonyms": [
+          "crotaline",
+          "crotaline",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "crotaline",
+          "crotalin"
+        ]
+      },
+      "monocrotaline": {
+        "synonyms": [
+          "monocrotaline",
+          "monocrotaline",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "monocrotaline",
+          "monocrotalin"
+        ]
+      },
+      "senecionine": {
+        "synonyms": [
+          "senecionine",
+          "senecionine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "senecionine",
+          "senecionin"
+        ]
+      },
+      "senkirkine": {
+        "synonyms": [
+          "senkirkine",
+          "senkirkine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "senkirkine",
+          "senkirk"
+        ]
+      },
+      "riddelline": {
+        "synonyms": [
+          "riddelline",
+          "riddelline",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "riddelline",
+          "riddellin"
+        ]
+      },
+      "retrorsine": {
+        "synonyms": [
+          "retrorsine",
+          "retrorsine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "retrorsine",
+          "retrorsin"
+        ]
+      },
+      "jacoline": {
+        "synonyms": [
+          "jacoline",
+          "jacoline",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "jacoline",
+          "jacolin"
+        ]
+      },
+      "jacozine": {
+        "synonyms": [
+          "jacozine",
+          "jacozine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "jacozine",
+          "jacozin"
+        ]
+      },
+      "heliotrine": {
+        "synonyms": [
+          "heliotrine",
+          "heliotrine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "heliotrine",
+          "heliotrin"
+        ]
+      },
+      "lasiocarpine": {
+        "synonyms": [
+          "lasiocarpine",
+          "lasiocarpine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "lasiocarpine",
+          "lasiocarpin"
+        ]
+      },
+      "intermedine": {
+        "synonyms": [
+          "intermedine",
+          "intermedine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "intermedine",
+          "intermedin"
+        ]
+      },
+      "lycopsamine": {
+        "synonyms": [
+          "lycopsamine",
+          "lycopsamine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "lycopsamine",
+          "lycopsamin"
+        ]
+      },
+      "amabiline": {
+        "synonyms": [
+          "amabiline",
+          "amabiline",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "amabiline",
+          "amabilin"
+        ]
+      },
+      "echinine": {
+        "synonyms": [
+          "echinine",
+          "echinine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "echinine",
+          "echinin"
+        ]
+      },
+      "supinine": {
+        "synonyms": [
+          "supinine",
+          "supinine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "supinine",
+          "supinin"
+        ]
+      },
+      "heliosupine": {
+        "synonyms": [
+          "heliosupine",
+          "heliosupine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "heliosupine",
+          "heliosupin"
+        ]
+      },
+      "echinatine": {
+        "synonyms": [
+          "echinatine",
+          "echinatine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "echinatine",
+          "echinatin"
+        ]
+      },
+      "echinidine": {
+        "synonyms": [
+          "echinidine",
+          "echinidine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "echinidine",
+          "echinidin"
+        ]
+      },
+      "rinderine": {
+        "synonyms": [
+          "rinderine",
+          "rinderine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "rinderine",
+          "rinderin"
+        ]
+      },
+      "gymnemagenin": {
+        "synonyms": [
+          "gymnemagenin",
+          "gymnemagenin",
+          "oleanolic acid derivative"
+        ],
+        "common_misspellings": [
+          "gymnemagenin",
+          "gymnemagen"
+        ]
+      },
+      "gymnemaside": {
+        "synonyms": [
+          "gymnemaside",
+          "gymnemaside",
+          "gymnemagenin glycoside"
+        ],
+        "common_misspellings": [
+          "gymnemaside",
+          "gymnemasid"
+        ]
+      },
+      "gymnemic acid": {
+        "synonyms": [
+          "gymnemic acid",
+          "gymnemic acid",
+          "gymnema sylvestre triterpene"
+        ],
+        "common_misspellings": [
+          "gymnemic acid",
+          "gymnemate"
+        ]
+      },
+      "swainsonine": {
+        "synonyms": [
+          "swainsonine",
+          "swainsonine",
+          "indolizidine alkaloid",
+          "locoweed alkaloid"
+        ],
+        "common_misspellings": [
+          "swainsonine",
+          "swainsonin"
+        ]
+      },
+      "castanospermine": {
+        "synonyms": [
+          "castanospermine",
+          "castanospermine",
+          "polyhydroxy indolizidine"
+        ],
+        "common_misspellings": [
+          "castanospermine",
+          "castanospermin"
+        ]
+      },
+      "australine": {
+        "synonyms": [
+          "australine",
+          "australine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "australine",
+          "australin"
+        ]
+      },
+      "alexine": {
+        "synonyms": [
+          "alexine",
+          "alexine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "alexine",
+          "alexin"
+        ]
+      },
+      "homoalexine": {
+        "synonyms": [
+          "homoalexine",
+          "homoalexine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "homoalexine",
+          "homoalexin"
+        ]
+      },
+      "calystegine": {
+        "synonyms": [
+          "calystegine",
+          "calystegine",
+          "nortropane alkaloid"
+        ],
+        "common_misspellings": [
+          "calystegine",
+          "calystegin"
+        ]
+      },
+      "norcalystegine": {
+        "synonyms": [
+          "norcalystegine",
+          "norcalystegine",
+          "calystegine analog"
+        ],
+        "common_misspellings": [
+          "norcalystegine",
+          "norcalystegin"
+        ]
+      },
+      "hygrine": {
+        "synonyms": [
+          "hygrine",
+          "hygrine",
+          "tropane alkaloid",
+          "1-methyl-2-pyrrolidinylacetone"
+        ],
+        "common_misspellings": [
+          "hygrine",
+          "hygrin"
+        ]
+      },
+      "cuscohygrine": {
+        "synonyms": [
+          "cuscohygrine",
+          "cuscohygrine",
+          "tropane alkaloid"
+        ],
+        "common_misspellings": [
+          "cuscohygrine",
+          "cuscohygrin"
+        ]
+      },
+      "tropinone": {
+        "synonyms": [
+          "tropinone",
+          "tropinone",
+          "tropane alkaloid"
+        ],
+        "common_misspellings": [
+          "tropinone",
+          "tropinon"
+        ]
+      },
+      "pseudotropine": {
+        "synonyms": [
+          "pseudotropine",
+          "pseudotropine",
+          "tropane alkaloid",
+          "3β-tropanol"
+        ],
+        "common_misspellings": [
+          "pseudotropine",
+          "pseudotropin"
+        ]
+      },
+      "meteloidine": {
+        "synonyms": [
+          "meteloidine",
+          "meteloidine",
+          "tropane alkaloid"
+        ],
+        "common_misspellings": [
+          "meteloidine",
+          "meteloidin"
+        ]
+      },
+      "tetramethylputrescine": {
+        "synonyms": [
+          "tetramethylputrescine",
+          "tetramethylputrescine",
+          "polyamine"
+        ],
+        "common_misspellings": [
+          "tetramethylputrescine",
+          "tetramethylputrescin"
+        ]
+      },
+      "cadaverine": {
+        "synonyms": [
+          "cadaverine",
+          "cadaverine",
+          "1,5-diaminopentane"
+        ],
+        "common_misspellings": [
+          "cadaverine",
+          "cadaverin"
+        ]
+      },
+      "putrescine": {
+        "synonyms": [
+          "putrescine",
+          "putrescine",
+          "1,4-diaminobutane"
+        ],
+        "common_misspellings": [
+          "putrescine",
+          "putrescin"
+        ]
+      },
+      "spermidine": {
+        "synonyms": [
+          "spermidine",
+          "spermidine",
+          "polyamine"
+        ],
+        "common_misspellings": [
+          "spermidine",
+          "spermidin"
+        ]
+      },
+      "spermine": {
+        "synonyms": [
+          "spermine",
+          "spermine",
+          "polyamine"
+        ],
+        "common_misspellings": [
+          "spermine",
+          "spermin"
+        ]
+      },
+      "thermospermine": {
+        "synonyms": [
+          "thermospermine",
+          "thermospermine",
+          "polyamine"
+        ],
+        "common_misspellings": [
+          "thermospermine",
+          "thermospermin"
+        ]
+      },
+      "agmatine": {
+        "synonyms": [
+          "agmatine",
+          "agmatine",
+          "decarboxylated arginine",
+          "4-aminobutylguanidine"
+        ],
+        "common_misspellings": [
+          "agmatine",
+          "agmatin"
+        ]
+      },
+      "anabasamine": {
+        "synonyms": [
+          "anabasamine",
+          "anabasamine",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "anabasamine",
+          "anabasamin"
+        ]
+      },
+      "anatabine": {
+        "synonyms": [
+          "anatabine",
+          "anatabine",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "anatabine",
+          "anatabin"
+        ]
+      },
+      "anabaseine": {
+        "synonyms": [
+          "anabaseine",
+          "anabaseine",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "anabaseine",
+          "anabasein"
+        ]
+      },
+      "nicotelline": {
+        "synonyms": [
+          "nicotelline",
+          "nicotelline",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "nicotelline",
+          "nicotellin"
+        ]
+      },
+      "nicofluoreine": {
+        "synonyms": [
+          "nicofluoreine",
+          "nicofluoreine",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "nicofluoreine",
+          "nicofluorein"
+        ]
+      },
+      "hydroxycotinine": {
+        "synonyms": [
+          "hydroxycotinine",
+          "hydroxycotinine",
+          "cotinine metabolite"
+        ],
+        "common_misspellings": [
+          "hydroxycotinine",
+          "hydroxycotinin"
+        ]
+      },
+      "norcotinine": {
+        "synonyms": [
+          "norcotinine",
+          "norcotinine",
+          "cotinine metabolite"
+        ],
+        "common_misspellings": [
+          "norcotinine",
+          "norcotinin"
+        ]
+      },
+      "trans-3-hydroxycotinine": {
+        "synonyms": [
+          "trans-3-hydroxycotinine",
+          "3-hydroxycotinine",
+          "cotinine metabolite"
+        ],
+        "common_misspellings": [
+          "trans-hydroxycotinine",
+          "hydroxycotinine"
+        ]
+      },
+      "myosmine": {
+        "synonyms": [
+          "myosmine",
+          "myosmine",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "myosmine",
+          "myosmin"
+        ]
+      },
+      "nicotyrine": {
+        "synonyms": [
+          "nicotyrine",
+          "nicotyrine",
+          "nicotine metabolite"
+        ],
+        "common_misspellings": [
+          "nicotyrine",
+          "nicotyrin"
+        ]
+      },
+      "anatalline": {
+        "synonyms": [
+          "anatalline",
+          "anatalline",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "anatalline",
+          "anatallin"
+        ]
+      },
+      "isocanthine": {
+        "synonyms": [
+          "isocanthine",
+          "isocanthine",
+          "β-carboline alkaloid"
+        ],
+        "common_misspellings": [
+          "isocanthine",
+          "isocanthin"
+        ]
+      },
+      "canthine": {
+        "synonyms": [
+          "canthine",
+          "canthine",
+          "β-carboline alkaloid"
+        ],
+        "common_misspellings": [
+          "canthine",
+          "canthin"
+        ]
+      },
+      "anthophylline": {
+        "synonyms": [
+          "anthophylline",
+          "anthophylline",
+          "β-carboline alkaloid"
+        ],
+        "common_misspellings": [
+          "anthophylline",
+          "anthophyllin"
+        ]
+      },
+      "aricine": {
+        "synonyms": [
+          "aricine",
+          "aricine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "aricine",
+          "aricin"
+        ]
+      },
+      "corynantheine": {
+        "synonyms": [
+          "corynantheine",
+          "corynantheine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "corynantheine",
+          "corynanthein"
+        ]
+      },
+      "hirsuteine": {
+        "synonyms": [
+          "hirsuteine",
+          "hirsuteine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "hirsuteine",
+          "hirsutein"
+        ]
+      },
+      "hirsutine": {
+        "synonyms": [
+          "hirsutine",
+          "hirsutine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "hirsutine",
+          "hirsutin"
+        ]
+      },
+      "uncarine": {
+        "synonyms": [
+          "uncarine",
+          "uncarine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "uncarine",
+          "uncarin"
+        ]
+      },
+      "pteropodine": {
+        "synonyms": [
+          "pteropodine",
+          "pteropodine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "pteropodine",
+          "pteropodin"
+        ]
+      },
+      "isopteropodine": {
+        "synonyms": [
+          "isopteropodine",
+          "isopteropodine",
+          "pteropodine isomer"
+        ],
+        "common_misspellings": [
+          "isopteropodine",
+          "isopteropodin"
+        ]
+      },
+      "speciophylline": {
+        "synonyms": [
+          "speciophylline",
+          "speciophylline",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "speciophylline",
+          "speciophyllin"
+        ]
+      },
+      "formosanine": {
+        "synonyms": [
+          "formosanine",
+          "formosanine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "formosanine",
+          "formosanin"
+        ]
+      },
+      "mitraphylline": {
+        "synonyms": [
+          "mitraphylline",
+          "mitraphylline",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "mitraphylline",
+          "mitraphyllin"
+        ]
+      },
+      "rhynchophylline": {
+        "synonyms": [
+          "rhynchophylline",
+          "rhynchophylline",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "rhynchophylline",
+          "rhynchophyllin"
+        ]
+      },
+      "corynoxine": {
+        "synonyms": [
+          "corynoxine",
+          "corynoxine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "corynoxine",
+          "corynox"
+        ]
+      },
+      "corynoxeine": {
+        "synonyms": [
+          "corynoxeine",
+          "corynoxeine",
+          "corynoxine derivative"
+        ],
+        "common_misspellings": [
+          "corynoxeine",
+          "corynoxein"
+        ]
+      },
+      "isocorynoxeine": {
+        "synonyms": [
+          "isocorynoxeine",
+          "isocorynoxeine",
+          "corynoxeine isomer"
+        ],
+        "common_misspellings": [
+          "isocorynoxeine",
+          "isocorynoxein"
+        ]
+      },
+      "majaine": {
+        "synonyms": [
+          "majaine",
+          "majaine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "majaine",
+          "majain"
+        ]
+      },
+      "serpentine": {
+        "synonyms": [
+          "serpentine",
+          "serpentine",
+          "indole alkaloid",
+          "Rauwolfia alkaloid"
+        ],
+        "common_misspellings": [
+          "serpentine",
+          "serpentin"
+        ]
+      },
+      "alstonine": {
+        "synonyms": [
+          "alstonine",
+          "alstonine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "alstonine",
+          "alstonin"
+        ]
+      },
+      "rauwolscine": {
+        "synonyms": [
+          "rauwolscine",
+          "rauwolscine",
+          "indole alkaloid",
+          "α-yohimbine"
+        ],
+        "common_misspellings": [
+          "rauwolscine",
+          "rauwolscin"
+        ]
+      },
+      "sarpagine": {
+        "synonyms": [
+          "sarpagine",
+          "sarpagine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "sarpagine",
+          "sarpagin"
+        ]
+      },
+      "vellosimine": {
+        "synonyms": [
+          "vellosimine",
+          "vellosimine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vellosimine",
+          "vellosimin"
+        ]
+      },
+      "voachalotine": {
+        "synonyms": [
+          "voachalotine",
+          "voachalotine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "voachalotine",
+          "voachalotin"
+        ]
+      },
+      "vobasine": {
+        "synonyms": [
+          "vobasine",
+          "vobasine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vobasine",
+          "vobasin"
+        ]
+      },
+      "vincamine": {
+        "synonyms": [
+          "vincamine",
+          "vincamine",
+          "indole alkaloid",
+          "Vinca minor alkaloid"
+        ],
+        "common_misspellings": [
+          "vincamine",
+          "vincamin"
+        ]
+      },
+      "vincadifformine": {
+        "synonyms": [
+          "vincadifformine",
+          "vincadifformine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vincadifformine",
+          "vincadifformin"
+        ]
+      },
+      "vincadine": {
+        "synonyms": [
+          "vincadine",
+          "vincadine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vincadine",
+          "vincadin"
+        ]
+      },
+      "vincaminine": {
+        "synonyms": [
+          "vincaminine",
+          "vincaminine",
+          "vincamine derivative"
+        ],
+        "common_misspellings": [
+          "vincaminine",
+          "vincaminin"
+        ]
+      },
+      "vincanicine": {
+        "synonyms": [
+          "vincanicine",
+          "vincanicine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vincanicine",
+          "vincanicin"
+        ]
+      },
+      "vincanedine": {
+        "synonyms": [
+          "vincanedine",
+          "vincanedine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vincanedine",
+          "vincanedin"
+        ]
+      },
+      "vincarine": {
+        "synonyms": [
+          "vincarine",
+          "vincarine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vincarine",
+          "vincarin"
+        ]
+      },
+      "vincinone": {
+        "synonyms": [
+          "vincinone",
+          "vincinone",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vincinone",
+          "vincinon"
+        ]
+      },
+      "vincarodine": {
+        "synonyms": [
+          "vincarodine",
+          "vincarodine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vincarodine",
+          "vincarodin"
+        ]
+      },
+      "vincosamide": {
+        "synonyms": [
+          "vincosamide",
+          "vincosamide",
+          "indole alkaloid glycoside"
+        ],
+        "common_misspellings": [
+          "vincosamide",
+          "vincosamid"
+        ]
+      },
+      "strictosidine": {
+        "synonyms": [
+          "strictosidine",
+          "strictosidine",
+          "indole alkaloid glycoside"
+        ],
+        "common_misspellings": [
+          "strictosidine",
+          "strictosidin"
+        ]
+      },
+      "geissoschizine": {
+        "synonyms": [
+          "geissoschizine",
+          "geissoschizine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "geissoschizine",
+          "geissoschizin"
+        ]
+      },
+      "prenakuanonine": {
+        "synonyms": [
+          "prenakuanonine",
+          "prenakuanonine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "prenakuanonine",
+          "prenakuanonin"
+        ]
+      },
+      "akuammicine": {
+        "synonyms": [
+          "akuammicine",
+          "akuammicine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "akuammicine",
+          "akuammicin"
+        ]
+      },
+      "aspidospermine": {
+        "synonyms": [
+          "aspidospermine",
+          "aspidospermine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "aspidospermine",
+          "aspidospermin"
+        ]
+      },
+      "quebrachamine": {
+        "synonyms": [
+          "quebrachamine",
+          "quebrachamine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "quebrachamine",
+          "quebrachamin"
+        ]
+      },
+      "condylocarpine": {
+        "synonyms": [
+          "condylocarpine",
+          "condylocarpine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "condylocarpine",
+          "condylocarpin"
+        ]
+      },
+      "tabernaemontanine": {
+        "synonyms": [
+          "tabernaemontanine",
+          "tabernaemontanine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "tabernaemontanine",
+          "tabernaemontanin"
+        ]
+      },
+      "conodurine": {
+        "synonyms": [
+          "conodurine",
+          "conodurine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "conodurine",
+          "conodurin"
+        ]
+      },
+      "conoflorine": {
+        "synonyms": [
+          "conoflorine",
+          "conoflorine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "conoflorine",
+          "conoflorin"
+        ]
+      },
+      "voacamine": {
+        "synonyms": [
+          "voacamine",
+          "voacamine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "voacamine",
+          "voacamin"
+        ]
+      },
+      "voacristine": {
+        "synonyms": [
+          "voacristine",
+          "voacristine",
+          "voacamine derivative"
+        ],
+        "common_misspellings": [
+          "voacristine",
+          "voacristin"
+        ]
+      },
+      "voacarpine": {
+        "synonyms": [
+          "voacarpine",
+          "voacarpine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "voacarpine",
+          "voacarpin"
+        ]
+      },
+      "vobtusine": {
+        "synonyms": [
+          "vobtusine",
+          "vobtusine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vobtusine",
+          "vobtusin"
+        ]
+      },
+      "pericyclivine": {
+        "synonyms": [
+          "pericyclivine",
+          "pericyclivine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "pericyclivine",
+          "pericyclivin"
+        ]
+      },
+      "perivine": {
+        "synonyms": [
+          "perivine",
+          "perivine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "perivine",
+          "perivin"
+        ]
+      },
+      "leurosine": {
+        "synonyms": [
+          "leurosine",
+          "leurosine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "leurosine",
+          "leurosin"
+        ]
+      },
+      "leuroformine": {
+        "synonyms": [
+          "leuroformine",
+          "leuroformine",
+          "leurosine derivative"
+        ],
+        "common_misspellings": [
+          "leuroformine",
+          "leuroformin"
+        ]
+      },
+      "vindorosine": {
+        "synonyms": [
+          "vindorosine",
+          "vindorosine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "vindorosine",
+          "vindoros"
+        ]
+      },
+      "tabersonine": {
+        "synonyms": [
+          "tabersonine",
+          "tabersonine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "tabersonine",
+          "tabersonin"
+        ]
+      },
+      "lochnericine": {
+        "synonyms": [
+          "lochnericine",
+          "lochnericine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "lochnericine",
+          "lochnericin"
+        ]
+      },
+      "horhammericine": {
+        "synonyms": [
+          "horhammericine",
+          "horhammericine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "horhammericine",
+          "horhammericin"
+        ]
+      },
+      "huebrigine": {
+        "synonyms": [
+          "huebrigine",
+          "huebrigine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "huebrigine",
+          "huebrigin"
+        ]
+      },
+      "echitovenine": {
+        "synonyms": [
+          "echitovenine",
+          "echitovenine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "echitovenine",
+          "echitovenin"
+        ]
+      },
+      "echitamine": {
+        "synonyms": [
+          "echitamine",
+          "echitamine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "echitamine",
+          "echitamin"
+        ]
+      },
+      "ditamine": {
+        "synonyms": [
+          "ditamine",
+          "ditamine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "ditamine",
+          "ditamin"
+        ]
+      },
+      "echitamidine": {
+        "synonyms": [
+          "echitamidine",
+          "echitamidine",
+          "echitamine derivative"
+        ],
+        "common_misspellings": [
+          "echitamidine",
+          "echitamidin"
+        ]
+      },
+      "echitine": {
+        "synonyms": [
+          "echitine",
+          "echitine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "echitine",
+          "echitin"
+        ]
+      },
+      "echitenine": {
+        "synonyms": [
+          "echitenine",
+          "echitenine",
+          "echitine derivative"
+        ],
+        "common_misspellings": [
+          "echitenine",
+          "echitenin"
+        ]
+      },
+      "echitinidine": {
+        "synonyms": [
+          "echitinidine",
+          "echitinidine",
+          "echitine derivative"
+        ],
+        "common_misspellings": [
+          "echitinidine",
+          "echitinidin"
+        ]
+      },
+      "alstiphyllanine": {
+        "synonyms": [
+          "alstiphyllanine",
+          "alstiphyllanine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "alstiphyllanine",
+          "alstiphyllanin"
+        ]
+      },
+      "alstiphyllinine": {
+        "synonyms": [
+          "alstiphyllinine",
+          "alstiphyllinine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "alstiphyllinine",
+          "alstiphyllinin"
+        ]
+      },
+      "alstiphylline": {
+        "synonyms": [
+          "alstiphylline",
+          "alstiphylline",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "alstiphylline",
+          "alstiphyllin"
+        ]
+      },
+      "alstonicine": {
+        "synonyms": [
+          "alstonicine",
+          "alstonicine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "alstonicine",
+          "alstonicin"
+        ]
+      },
+      "pleiocarpamine": {
+        "synonyms": [
+          "pleiocarpamine",
+          "pleiocarpamine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "pleiocarpamine",
+          "pleiocarpamin"
+        ]
+      },
+      "kopsiflorine": {
+        "synonyms": [
+          "kopsiflorine",
+          "kopsiflorine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "kopsiflorine",
+          "kopsiflorin"
+        ]
+      },
+      "kopsinine": {
+        "synonyms": [
+          "kopsinine",
+          "kopsinine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "kopsinine",
+          "kopsinin"
+        ]
+      },
+      "kopsanone": {
+        "synonyms": [
+          "kopsanone",
+          "kopsanone",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "kopsanone",
+          "kopsanon"
+        ]
+      },
+      "kopsaporine": {
+        "synonyms": [
+          "kopsaporine",
+          "kopsaporine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "kopsaporine",
+          "kopsaporin"
+        ]
+      },
+      "kopsildine": {
+        "synonyms": [
+          "kopsildine",
+          "kopsildine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "kopsildine",
+          "kopsildin"
+        ]
+      },
+      "kopsidasine": {
+        "synonyms": [
+          "kopsidasine",
+          "kopsidasine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "kopsidasine",
+          "kopsidasin"
+        ]
+      },
+      "pleiomutinine": {
+        "synonyms": [
+          "pleiomutinine",
+          "pleiomutinine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "pleiomutinine",
+          "pleiomutinin"
+        ]
+      },
+      "pleiomutine": {
+        "synonyms": [
+          "pleiomutine",
+          "pleiomutine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "pleiomutine",
+          "pleiomutin"
+        ]
+      },
+      "pleiocarpine": {
+        "synonyms": [
+          "pleiocarpine",
+          "pleiocarpine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "pleiocarpine",
+          "pleiocarpin"
+        ]
+      },
+      "pleiocarpinine": {
+        "synonyms": [
+          "pleiocarpinine",
+          "pleiocarpinine",
+          "pleiocarpine derivative"
+        ],
+        "common_misspellings": [
+          "pleiocarpinine",
+          "pleiocarpinin"
+        ]
+      },
+      "malayanine": {
+        "synonyms": [
+          "malayanine",
+          "malayanine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "malayanine",
+          "malayanin"
+        ]
+      },
+      "malaysine": {
+        "synonyms": [
+          "malaysine",
+          "malaysine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "malaysine",
+          "malaysin"
+        ]
+      },
+      "maluagine": {
+        "synonyms": [
+          "maluagine",
+          "maluagine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "maluagine",
+          "maluagin"
+        ]
+      },
+      "maluangine": {
+        "synonyms": [
+          "maluangine",
+          "maluangine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "maluangine",
+          "maluangin"
+        ]
+      },
+      "acronycine": {
+        "synonyms": [
+          "acronycine",
+          "acronycine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "acronycine",
+          "acronyci"
+        ]
+      },
+      "acronine": {
+        "synonyms": [
+          "acronine",
+          "acronine",
+          "acronycine derivative"
+        ],
+        "common_misspellings": [
+          "acronine",
+          "acronin"
+        ]
+      },
+      "acronycidine": {
+        "synonyms": [
+          "acronycidine",
+          "acronycidine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "acronycidine",
+          "acronycidin"
+        ]
+      },
+      "adifoline": {
+        "synonyms": [
+          "adifoline",
+          "adifoline",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "adifoline",
+          "adifolin"
+        ]
+      },
+      "aegeline": {
+        "synonyms": [
+          "aegeline",
+          "aegeline",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "aegeline",
+          "aegelin"
+        ]
+      },
+      "aegelinine": {
+        "synonyms": [
+          "aegelinine",
+          "aegelinine",
+          "aegeline derivative"
+        ],
+        "common_misspellings": [
+          "aegelinine",
+          "aegelinin"
+        ]
+      },
+      "aegelidine": {
+        "synonyms": [
+          "aegelidine",
+          "aegelidine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "aegelidine",
+          "aegelidin"
+        ]
+      },
+      "aegelinol": {
+        "synonyms": [
+          "aegelinol",
+          "aegelinol",
+          "aegeline alcohol"
+        ],
+        "common_misspellings": [
+          "aegelinol",
+          "aegelinole"
+        ]
+      },
+      "ajmalicine": {
+        "synonyms": [
+          "ajmalicine",
+          "ajmalicine",
+          "indole alkaloid",
+          "raubasine"
+        ],
+        "common_misspellings": [
+          "ajmalicine",
+          "ajmalicin"
+        ]
+      },
+      "ajmalinine": {
+        "synonyms": [
+          "ajmalinine",
+          "ajmalinine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "ajmalinine",
+          "ajmalinin"
+        ]
+      },
+      "alangicine": {
+        "synonyms": [
+          "alangicine",
+          "alangicine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "alangicine",
+          "alangicin"
+        ]
+      },
+      "alangine": {
+        "synonyms": [
+          "alangine",
+          "alangine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "alangine",
+          "alangin"
+        ]
+      },
+      "alstonidine": {
+        "synonyms": [
+          "alstonidine",
+          "alstonidine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "alstonidine",
+          "alstonidin"
+        ]
+      },
+      "angustine": {
+        "synonyms": [
+          "angustine",
+          "angustine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "angustine",
+          "angustin"
+        ]
+      },
+      "angustidine": {
+        "synonyms": [
+          "angustidine",
+          "angustidine",
+          "angustine derivative"
+        ],
+        "common_misspellings": [
+          "angustidine",
+          "angustidin"
+        ]
+      },
+      "antoferine": {
+        "synonyms": [
+          "antoferine",
+          "antoferine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "antoferine",
+          "antoferin"
+        ]
+      },
+      "antofine": {
+        "synonyms": [
+          "antofine",
+          "antofine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "antofine",
+          "antofin"
+        ]
+      },
+      "aporphine": {
+        "synonyms": [
+          "aporphine",
+          "aporphine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "aporphine",
+          "aporphin"
+        ]
+      },
+      "argemonine": {
+        "synonyms": [
+          "argemonine",
+          "argemonine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "argemonine",
+          "argemonin"
+        ]
+      },
+      "argemone": {
+        "synonyms": [
+          "argemone",
+          "argemone",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "argemone",
+          "argemon"
+        ]
+      },
+      "aristolochine": {
+        "synonyms": [
+          "aristolochine",
+          "aristolochine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "aristolochine",
+          "aristolochin"
+        ]
+      },
+      "aristolochic acid": {
+        "synonyms": [
+          "aristolochic acid",
+          "aristolochic acid",
+          "aristolochic acid I"
+        ],
+        "common_misspellings": [
+          "aristolochic acid",
+          "aristolochate"
+        ]
+      },
+      "aspidocarpine": {
+        "synonyms": [
+          "aspidocarpine",
+          "aspidocarpine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "aspidocarpine",
+          "aspidocarpin"
+        ]
+      },
+      "baptifoline": {
+        "synonyms": [
+          "baptifoline",
+          "baptifoline",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "baptifoline",
+          "baptifolin"
+        ]
+      },
+      "baptisine": {
+        "synonyms": [
+          "baptisine",
+          "baptisine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "baptisine",
+          "baptisin"
+        ]
+      },
+      "bebeerine": {
+        "synonyms": [
+          "bebeerine",
+          "bebeerine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "bebeerine",
+          "bebeerin"
+        ]
+      },
+      "bebirine": {
+        "synonyms": [
+          "bebirine",
+          "bebirine",
+          "bebeerine derivative"
+        ],
+        "common_misspellings": [
+          "bebirine",
+          "bebirin"
+        ]
+      },
+      "benzylisoquinoline": {
+        "synonyms": [
+          "benzylisoquinoline",
+          "benzylisoquinoline",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "benzylisoquinoline",
+          "benzylisoquinolin"
+        ]
+      },
+      "benzyltetrahydroisoquinoline": {
+        "synonyms": [
+          "benzyltetrahydroisoquinoline",
+          "benzyltetrahydroisoquinoline",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "benzyltetrahydroisoquinoline",
+          "benzyltetrahydroisoquinolin"
+        ]
+      },
+      "berbamine": {
+        "synonyms": [
+          "berbamine",
+          "berbamine",
+          "bisbenzylisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "berbamine",
+          "berbamin"
+        ]
+      },
+      "bicuculline": {
+        "synonyms": [
+          "bicuculline",
+          "bicuculline",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "bicuculline",
+          "bicucullin"
+        ]
+      },
+      "bicucullidine": {
+        "synonyms": [
+          "bicucullidine",
+          "bicucullidine",
+          "bicuculline derivative"
+        ],
+        "common_misspellings": [
+          "bicucullidine",
+          "bicucullidin"
+        ]
+      },
+      "boldine": {
+        "synonyms": [
+          "boldine",
+          "boldine",
+          "isoquinoline alkaloid",
+          "boldusine"
+        ],
+        "common_misspellings": [
+          "boldine",
+          "boldin"
+        ]
+      },
+      "boldin": {
+        "synonyms": [
+          "boldin",
+          "boldin",
+          "boldine"
+        ],
+        "common_misspellings": [
+          "boldin",
+          "boldine"
+        ]
+      },
+      "buxamine": {
+        "synonyms": [
+          "buxamine",
+          "buxamine",
+          "steroidal alkaloid"
+        ],
+        "common_misspellings": [
+          "buxamine",
+          "buxamin"
+        ]
+      },
+      "buxine": {
+        "synonyms": [
+          "buxine",
+          "buxine",
+          "steroidal alkaloid"
+        ],
+        "common_misspellings": [
+          "buxine",
+          "buxin"
+        ]
+      },
+      "caffeoylputrescine": {
+        "synonyms": [
+          "caffeoylputrescine",
+          "caffeoylputrescine",
+          "hydroxycinnamoyl amide"
+        ],
+        "common_misspellings": [
+          "caffeoylputrescine",
+          "caffeoylputrescin"
+        ]
+      },
+      "caffeoylspermidine": {
+        "synonyms": [
+          "caffeoylspermidine",
+          "caffeoylspermidine",
+          "hydroxycinnamoyl amide"
+        ],
+        "common_misspellings": [
+          "caffeoylspermidine",
+          "caffeoylspermidin"
+        ]
+      },
+      "calycanthine": {
+        "synonyms": [
+          "calycanthine",
+          "calycanthine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "calycanthine",
+          "calycanthin"
+        ]
+      },
+      "calycanthidine": {
+        "synonyms": [
+          "calycanthidine",
+          "calycanthidine",
+          "calycanthine derivative"
+        ],
+        "common_misspellings": [
+          "calycanthidine",
+          "calycanthidin"
+        ]
+      },
+      "cannabisativine": {
+        "synonyms": [
+          "cannabisativine",
+          "cannabisativine",
+          "polyamine alkaloid"
+        ],
+        "common_misspellings": [
+          "cannabisativine",
+          "cannabisativin"
+        ]
+      },
+      "cepharanthine": {
+        "synonyms": [
+          "cepharanthine",
+          "cepharanthine",
+          "bisbenzylisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "cepharanthine",
+          "cepharanthin"
+        ]
+      },
+      "chelerythrine": {
+        "synonyms": [
+          "chelerythrine",
+          "chelerythrine",
+          "benzophenanthridine alkaloid"
+        ],
+        "common_misspellings": [
+          "chelerythrine",
+          "chelerythrin"
+        ]
+      },
+      "chelidonine": {
+        "synonyms": [
+          "chelidonine",
+          "chelidonine",
+          "benzophenanthridine alkaloid"
+        ],
+        "common_misspellings": [
+          "chelidonine",
+          "chelidonin"
+        ]
+      },
+      "cinchonamine": {
+        "synonyms": [
+          "cinchonamine",
+          "cinchonamine",
+          "cinchona alkaloid"
+        ],
+        "common_misspellings": [
+          "cinchonamine",
+          "cinchonamin"
+        ]
+      },
+      "cocsuline": {
+        "synonyms": [
+          "cocsuline",
+          "cocsuline",
+          "bisbenzylisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "cocsuline",
+          "cocsulin"
+        ]
+      },
+      "cocsulinine": {
+        "synonyms": [
+          "cocsulinine",
+          "cocsulinine",
+          "cocsuline derivative"
+        ],
+        "common_misspellings": [
+          "cocsulinine",
+          "cocsulinin"
+        ]
+      },
+      "colchiceine": {
+        "synonyms": [
+          "colchiceine",
+          "colchiceine",
+          "colchicine derivative"
+        ],
+        "common_misspellings": [
+          "colchiceine",
+          "colchicein"
+        ]
+      },
+      "conessine": {
+        "synonyms": [
+          "conessine",
+          "conessine",
+          "steroidal alkaloid"
+        ],
+        "common_misspellings": [
+          "conessine",
+          "conessin"
+        ]
+      },
+      "conessimine": {
+        "synonyms": [
+          "conessimine",
+          "conessimine",
+          "conessine derivative"
+        ],
+        "common_misspellings": [
+          "conessimine",
+          "conessimin"
+        ]
+      },
+      "corydaline": {
+        "synonyms": [
+          "corydaline",
+          "corydaline",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "corydaline",
+          "corydalin"
+        ]
+      },
+      "corydine": {
+        "synonyms": [
+          "corydine",
+          "corydine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "corydine",
+          "corydin"
+        ]
+      },
+      "cryptopleurine": {
+        "synonyms": [
+          "cryptopleurine",
+          "cryptopleurine",
+          "phenanthrene alkaloid"
+        ],
+        "common_misspellings": [
+          "cryptopleurine",
+          "cryptopleurin"
+        ]
+      },
+      "curine": {
+        "synonyms": [
+          "curine",
+          "curine",
+          "bisbenzylisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "curine",
+          "curin"
+        ]
+      },
+      "curarine": {
+        "synonyms": [
+          "curarine",
+          "curarine",
+          "curine derivative"
+        ],
+        "common_misspellings": [
+          "curarine",
+          "curarin"
+        ]
+      },
+      "cylindrocarpine": {
+        "synonyms": [
+          "cylindrocarpine",
+          "cylindrocarpine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "cylindrocarpine",
+          "cylindrocarpin"
+        ]
+      },
+      "cylindrocarpidine": {
+        "synonyms": [
+          "cylindrocarpidine",
+          "cylindrocarpidine",
+          "cylindrocarpine derivative"
+        ],
+        "common_misspellings": [
+          "cylindrocarpidine",
+          "cylindrocarpidin"
+        ]
+      },
+      "dicentrine": {
+        "synonyms": [
+          "dicentrine",
+          "dicentrine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "dicentrine",
+          "dicentrin"
+        ]
+      },
+      "dictyocarpine": {
+        "synonyms": [
+          "dictyocarpine",
+          "dictyocarpine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "dictyocarpine",
+          "dictyocarpin"
+        ]
+      },
+      "dictyocarpidine": {
+        "synonyms": [
+          "dictyocarpidine",
+          "dictyocarpidine",
+          "dictyocarpine derivative"
+        ],
+        "common_misspellings": [
+          "dictyocarpidine",
+          "dictyocarpidin"
+        ]
+      },
+      "dihydrocorynantheine": {
+        "synonyms": [
+          "dihydrocorynantheine",
+          "dihydrocorynantheine",
+          "corynantheine derivative"
+        ],
+        "common_misspellings": [
+          "dihydrocorynantheine",
+          "dihydrocorynanthein"
+        ]
+      },
+      "dihydrocorynoxeine": {
+        "synonyms": [
+          "dihydrocorynoxeine",
+          "dihydrocorynoxeine",
+          "corynoxeine derivative"
+        ],
+        "common_misspellings": [
+          "dihydrocorynoxeine",
+          "dihydrocorynoxein"
+        ]
+      },
+      "dihydroergotamine": {
+        "synonyms": [
+          "dihydroergotamine",
+          "dihydroergotamine",
+          "ergotamine derivative"
+        ],
+        "common_misspellings": [
+          "dihydroergotamine",
+          "dihydroergotamin"
+        ],
+        "brand_names": [
+          "D.H.E. 45",
+          "Migranal"
+        ]
+      },
+      "dihydroergocristine": {
+        "synonyms": [
+          "dihydroergocristine",
+          "dihydroergocristine",
+          "ergocristine derivative"
+        ],
+        "common_misspellings": [
+          "dihydroergocristine",
+          "dihydroergocristin"
+        ]
+      },
+      "dihydroquinine": {
+        "synonyms": [
+          "dihydroquinine",
+          "dihydroquinine",
+          "quinine derivative"
+        ],
+        "common_misspellings": [
+          "dihydroquinine",
+          "dihydroquinin"
+        ]
+      },
+      "dihydroquinidine": {
+        "synonyms": [
+          "dihydroquinidine",
+          "dihydroquinidine",
+          "quinidine derivative"
+        ],
+        "common_misspellings": [
+          "dihydroquinidine",
+          "dihydroquinidin"
+        ]
+      },
+      "dioscorine": {
+        "synonyms": [
+          "dioscorine",
+          "dioscorine",
+          "nortropane alkaloid"
+        ],
+        "common_misspellings": [
+          "dioscorine",
+          "dioscorin"
+        ]
+      },
+      "dioscoridine": {
+        "synonyms": [
+          "dioscoridine",
+          "dioscoridine",
+          "dioscorine derivative"
+        ],
+        "common_misspellings": [
+          "dioscoridine",
+          "dioscoridin"
+        ]
+      },
+      "eburnamine": {
+        "synonyms": [
+          "eburnamine",
+          "eburnamine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "eburnamine",
+          "eburnamin"
+        ]
+      },
+      "eburnamonine": {
+        "synonyms": [
+          "eburnamonine",
+          "eburnamonine",
+          "eburnamine derivative"
+        ],
+        "common_misspellings": [
+          "eburnamonine",
+          "eburnamonin"
+        ]
+      },
+      "ellipticine": {
+        "synonyms": [
+          "ellipticine",
+          "ellipticine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "ellipticine",
+          "ellipticin"
+        ]
+      },
+      "emetine": {
+        "synonyms": [
+          "emetine",
+          "emetine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "emetine",
+          "emetin"
+        ]
+      },
+      "equisetidine": {
+        "synonyms": [
+          "equisetidine",
+          "equisetidine",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "equisetidine",
+          "equisetidin"
+        ]
+      },
+      "equisetine": {
+        "synonyms": [
+          "equisetine",
+          "equisetine",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "equisetine",
+          "equisetin"
+        ]
+      },
+      "evodiamine": {
+        "synonyms": [
+          "evodiamine",
+          "evodiamine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "evodiamine",
+          "evodiamin"
+        ]
+      },
+      "evodiamidine": {
+        "synonyms": [
+          "evodiamidine",
+          "evodiamidine",
+          "evodiamine derivative"
+        ],
+        "common_misspellings": [
+          "evodiamidine",
+          "evodiamidin"
+        ]
+      },
+      "fagaronine": {
+        "synonyms": [
+          "fagaronine",
+          "fagaronine",
+          "benzophenanthridine alkaloid"
+        ],
+        "common_misspellings": [
+          "fagaronine",
+          "fagaronin"
+        ]
+      },
+      "fagaronidine": {
+        "synonyms": [
+          "fagaronidine",
+          "fagaronidine",
+          "fagaronine derivative"
+        ],
+        "common_misspellings": [
+          "fagaronidine",
+          "fagaronidin"
+        ]
+      },
+      "galanthamine": {
+        "synonyms": [
+          "galanthamine",
+          "galanthamine",
+          "Amaryllidaceae alkaloid"
+        ],
+        "common_misspellings": [
+          "galanthamine",
+          "galantamine"
+        ],
+        "brand_names": [
+          "Razadyne",
+          "Reminyl"
+        ]
+      },
+      "galanthidine": {
+        "synonyms": [
+          "galanthidine",
+          "galanthidine",
+          "galanthamine derivative"
+        ],
+        "common_misspellings": [
+          "galanthidine",
+          "galanthidin"
+        ]
+      },
+      "gelsemine": {
+        "synonyms": [
+          "gelsemine",
+          "gelsemine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "gelsemine",
+          "gelsemin"
+        ]
+      },
+      "gelsemidine": {
+        "synonyms": [
+          "gelsemidine",
+          "gelsemidine",
+          "gelsemine derivative"
+        ],
+        "common_misspellings": [
+          "gelsemidine",
+          "gelsemidin"
+        ]
+      },
+      "glaucine": {
+        "synonyms": [
+          "glaucine",
+          "glaucine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "glaucine",
+          "glaucin"
+        ]
+      },
+      "glaucidine": {
+        "synonyms": [
+          "glaucidine",
+          "glaucidine",
+          "glaucine derivative"
+        ],
+        "common_misspellings": [
+          "glaucidine",
+          "glaucidin"
+        ]
+      },
+      "gramine": {
+        "synonyms": [
+          "gramine",
+          "gramine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "gramine",
+          "gramin"
+        ]
+      },
+      "gramidine": {
+        "synonyms": [
+          "gramidine",
+          "gramidine",
+          "gramine derivative"
+        ],
+        "common_misspellings": [
+          "gramidine",
+          "gramidin"
+        ]
+      },
+      "guattegaumerine": {
+        "synonyms": [
+          "guattegaumerine",
+          "guattegaumerine",
+          "bisbenzylisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "guattegaumerine",
+          "guattegaumerin"
+        ]
+      },
+      "guattegaumeridine": {
+        "synonyms": [
+          "guattegaumeridine",
+          "guattegaumeridine",
+          "guattegaumerine derivative"
+        ],
+        "common_misspellings": [
+          "guattegaumeridine",
+          "guattegaumeridin"
+        ]
+      },
+      "harmicine": {
+        "synonyms": [
+          "harmicine",
+          "harmicine",
+          "β-carboline alkaloid"
+        ],
+        "common_misspellings": [
+          "harmicine",
+          "harmicin"
+        ]
+      },
+      "helenaline": {
+        "synonyms": [
+          "helenaline",
+          "helenaline",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "helenaline",
+          "helenalin"
+        ]
+      },
+      "helenine": {
+        "synonyms": [
+          "helenine",
+          "helenine",
+          "helenaline derivative"
+        ],
+        "common_misspellings": [
+          "helenine",
+          "helenin"
+        ]
+      },
+      "heliotridine": {
+        "synonyms": [
+          "heliotridine",
+          "heliotridine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "heliotridine",
+          "heliotridin"
+        ]
+      },
+      "heliosupinine": {
+        "synonyms": [
+          "heliosupinine",
+          "heliosupinine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "heliosupinine",
+          "heliosupinin"
+        ]
+      },
+      "hesperaline": {
+        "synonyms": [
+          "hesperaline",
+          "hesperaline",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "hesperaline",
+          "hesperalin"
+        ]
+      },
+      "hesperine": {
+        "synonyms": [
+          "hesperine",
+          "hesperine",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "hesperine",
+          "hesperin"
+        ]
+      },
+      "himbacine": {
+        "synonyms": [
+          "himbacine",
+          "himbacine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "himbacine",
+          "himbacin"
+        ]
+      },
+      "himbadine": {
+        "synonyms": [
+          "himbadine",
+          "himbadine",
+          "himbacine derivative"
+        ],
+        "common_misspellings": [
+          "himbadine",
+          "himbadin"
+        ]
+      },
+      "hirsutinine": {
+        "synonyms": [
+          "hirsutinine",
+          "hirsutinine",
+          "hirsutine derivative"
+        ],
+        "common_misspellings": [
+          "hirsutinine",
+          "hirsutinin"
+        ]
+      },
+      "homoaporphine": {
+        "synonyms": [
+          "homoaporphine",
+          "homoaporphine",
+          "aporphine derivative"
+        ],
+        "common_misspellings": [
+          "homoaporphine",
+          "homoaporphin"
+        ]
+      },
+      "hygrolidine": {
+        "synonyms": [
+          "hygrolidine",
+          "hygrolidine",
+          "tropane alkaloid"
+        ],
+        "common_misspellings": [
+          "hygrolidine",
+          "hygrolidin"
+        ]
+      },
+      "ibogamine": {
+        "synonyms": [
+          "ibogamine",
+          "ibogamine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "ibogamine",
+          "ibogamin"
+        ]
+      },
+      "icajine": {
+        "synonyms": [
+          "icajine",
+          "icajine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "icajine",
+          "icajin"
+        ]
+      },
+      "icajidine": {
+        "synonyms": [
+          "icajidine",
+          "icajidine",
+          "icajine derivative"
+        ],
+        "common_misspellings": [
+          "icajidine",
+          "icajidin"
+        ]
+      },
+      "imperatorine": {
+        "synonyms": [
+          "imperatorine",
+          "imperatorine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "imperatorine",
+          "imperatorin"
+        ]
+      },
+      "imperatoridine": {
+        "synonyms": [
+          "imperatoridine",
+          "imperatoridine",
+          "imperatorine derivative"
+        ],
+        "common_misspellings": [
+          "imperatoridine",
+          "imperatoridin"
+        ]
+      },
+      "indicine": {
+        "synonyms": [
+          "indicine",
+          "indicine",
+          "pyrrolizidine alkaloid"
+        ],
+        "common_misspellings": [
+          "indicine",
+          "indicin"
+        ]
+      },
+      "isoboldine": {
+        "synonyms": [
+          "isoboldine",
+          "isoboldine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "isoboldine",
+          "isoboldin"
+        ]
+      },
+      "isocorydine": {
+        "synonyms": [
+          "isocorydine",
+          "isocorydine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "isocorydine",
+          "isocorydin"
+        ]
+      },
+      "isoglaucine": {
+        "synonyms": [
+          "isoglaucine",
+          "isoglaucine",
+          "glaucine derivative"
+        ],
+        "common_misspellings": [
+          "isoglaucine",
+          "isoglaucin"
+        ]
+      },
+      "isolupanine": {
+        "synonyms": [
+          "isolupanine",
+          "isolupanine",
+          "lupin alkaloid"
+        ],
+        "common_misspellings": [
+          "isolupanine",
+          "isolupanin"
+        ]
+      },
+      "isothebaine": {
+        "synonyms": [
+          "isothebaine",
+          "isothebaine",
+          "morphinan alkaloid"
+        ],
+        "common_misspellings": [
+          "isothebaine",
+          "isothebain"
+        ]
+      },
+      "jatrorrhizidine": {
+        "synonyms": [
+          "jatrorrhizidine",
+          "jatrorrhizidine",
+          "protoberberine alkaloid"
+        ],
+        "common_misspellings": [
+          "jatrorrhizidine",
+          "jatrorrhizidin"
+        ]
+      },
+      "jervinine": {
+        "synonyms": [
+          "jervinine",
+          "jervinine",
+          "Veratrum alkaloid"
+        ],
+        "common_misspellings": [
+          "jervinine",
+          "jervinin"
+        ]
+      },
+      "kopsinidine": {
+        "synonyms": [
+          "kopsinidine",
+          "kopsinidine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "kopsinidine",
+          "kopsinidin"
+        ]
+      },
+      "lasiocarpidine": {
+        "synonyms": [
+          "lasiocarpidine",
+          "lasiocarpidine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "lasiocarpidine",
+          "lasiocarpidin"
+        ]
+      },
+      "laudanosine": {
+        "synonyms": [
+          "laudanosine",
+          "laudanosine",
+          "tetrahydroisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "laudanosine",
+          "laudanosin"
+        ]
+      },
+      "laudanine": {
+        "synonyms": [
+          "laudanine",
+          "laudanine",
+          "laudanosine derivative"
+        ],
+        "common_misspellings": [
+          "laudanine",
+          "laudanin"
+        ]
+      },
+      "magnoflorine": {
+        "synonyms": [
+          "magnoflorine",
+          "magnoflorine",
+          "aporphine alkaloid"
+        ],
+        "common_misspellings": [
+          "magnoflorine",
+          "magnoflorin"
+        ]
+      },
+      "magnofloridine": {
+        "synonyms": [
+          "magnofloridine",
+          "magnofloridine",
+          "magnoflorine derivative"
+        ],
+        "common_misspellings": [
+          "magnofloridine",
+          "magnofloridin"
+        ]
+      },
+      "menisperine": {
+        "synonyms": [
+          "menisperine",
+          "menisperine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "menisperine",
+          "menisperin"
+        ]
+      },
+      "menisperidine": {
+        "synonyms": [
+          "menisperidine",
+          "menisperidine",
+          "menisperine derivative"
+        ],
+        "common_misspellings": [
+          "menisperidine",
+          "menisperidin"
+        ]
+      },
+      "nandina": {
+        "synonyms": [
+          "nandina",
+          "nandina",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "nandina",
+          "nandin"
+        ]
+      },
+      "nandinine": {
+        "synonyms": [
+          "nandinine",
+          "nandinine",
+          "nandina derivative"
+        ],
+        "common_misspellings": [
+          "nandinine",
+          "nandinin"
+        ]
+      },
+      "norlaudanosine": {
+        "synonyms": [
+          "norlaudanosine",
+          "norlaudanosine",
+          "laudanosine derivative"
+        ],
+        "common_misspellings": [
+          "norlaudanosine",
+          "norlaudanosin"
+        ]
+      },
+      "norlaudanine": {
+        "synonyms": [
+          "norlaudanine",
+          "norlaudanine",
+          "laudanine derivative"
+        ],
+        "common_misspellings": [
+          "norlaudanine",
+          "norlaudanin"
+        ]
+      },
+      "ocoteine": {
+        "synonyms": [
+          "ocoteine",
+          "ocoteine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "ocoteine",
+          "ocotein"
+        ]
+      },
+      "ocoteidine": {
+        "synonyms": [
+          "ocoteidine",
+          "ocoteidine",
+          "ocoteine derivative"
+        ],
+        "common_misspellings": [
+          "ocoteidine",
+          "ocoteidin"
+        ]
+      },
+      "pallidine": {
+        "synonyms": [
+          "pallidine",
+          "pallidine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "pallidine",
+          "pallidin"
+        ]
+      },
+      "pavine": {
+        "synonyms": [
+          "pavine",
+          "pavine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "pavine",
+          "pavin"
+        ]
+      },
+      "pavidine": {
+        "synonyms": [
+          "pavidine",
+          "pavidine",
+          "pavine derivative"
+        ],
+        "common_misspellings": [
+          "pavidine",
+          "pavidin"
+        ]
+      },
+      "reticuline": {
+        "synonyms": [
+          "reticuline",
+          "reticuline",
+          "benzylisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "reticuline",
+          "reticulin"
+        ]
+      },
+      "reticulidine": {
+        "synonyms": [
+          "reticulidine",
+          "reticulidine",
+          "reticuline derivative"
+        ],
+        "common_misspellings": [
+          "reticulidine",
+          "reticulidin"
+        ]
+      },
+      "roemerine": {
+        "synonyms": [
+          "roemerine",
+          "roemerine",
+          "aporphine alkaloid"
+        ],
+        "common_misspellings": [
+          "roemerine",
+          "roemerin"
+        ]
+      },
+      "roemeridine": {
+        "synonyms": [
+          "roemeridine",
+          "roemeridine",
+          "roemerine derivative"
+        ],
+        "common_misspellings": [
+          "roemeridine",
+          "roemeridin"
+        ]
+      },
+      "salsoline": {
+        "synonyms": [
+          "salsoline",
+          "salsoline",
+          "tetrahydroisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "salsoline",
+          "salsolin"
+        ]
+      },
+      "salsolidine": {
+        "synonyms": [
+          "salsolidine",
+          "salsolidine",
+          "salsoline derivative"
+        ],
+        "common_misspellings": [
+          "salsolidine",
+          "salsolidin"
+        ]
+      },
+      "scoulerine": {
+        "synonyms": [
+          "scoulerine",
+          "scoulerine",
+          "protoberberine alkaloid"
+        ],
+        "common_misspellings": [
+          "scoulerine",
+          "scoulerin"
+        ]
+      },
+      "scouleridine": {
+        "synonyms": [
+          "scouleridine",
+          "scouleridine",
+          "scoulerine derivative"
+        ],
+        "common_misspellings": [
+          "scouleridine",
+          "scouleridin"
+        ]
+      },
+      "sinactine": {
+        "synonyms": [
+          "sinactine",
+          "sinactine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "sinactine",
+          "sinactin"
+        ]
+      },
+      "sinacidine": {
+        "synonyms": [
+          "sinacidine",
+          "sinacidine",
+          "sinactine derivative"
+        ],
+        "common_misspellings": [
+          "sinacidine",
+          "sinacidin"
+        ]
+      },
+      "stepharine": {
+        "synonyms": [
+          "stepharine",
+          "stepharine",
+          "hasubanan alkaloid"
+        ],
+        "common_misspellings": [
+          "stepharine",
+          "stepharin"
+        ]
+      },
+      "stepharidine": {
+        "synonyms": [
+          "stepharidine",
+          "stepharidine",
+          "stepharine derivative"
+        ],
+        "common_misspellings": [
+          "stepharidine",
+          "stepharidin"
+        ]
+      },
+      "tetrandrine": {
+        "synonyms": [
+          "tetrandrine",
+          "tetrandrine",
+          "bisbenzylisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "tetrandrine",
+          "tetrandrin"
+        ]
+      },
+      "thalictrine": {
+        "synonyms": [
+          "thalictrine",
+          "thalictrine",
+          "isoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "thalictrine",
+          "thalictrin"
+        ]
+      },
+      "thalictridine": {
+        "synonyms": [
+          "thalictridine",
+          "thalictridine",
+          "thalictrine derivative"
+        ],
+        "common_misspellings": [
+          "thalictridine",
+          "thalictridin"
+        ]
+      },
+      "trigonelline": {
+        "synonyms": [
+          "trigonelline",
+          "trigonelline",
+          "pyridine alkaloid"
+        ],
+        "common_misspellings": [
+          "trigonelline",
+          "trigonellin"
+        ]
+      },
+      "trigonellidine": {
+        "synonyms": [
+          "trigonellidine",
+          "trigonellidine",
+          "trigonelline derivative"
+        ],
+        "common_misspellings": [
+          "trigonellidine",
+          "trigonellidin"
+        ]
+      },
+      "wilfordine": {
+        "synonyms": [
+          "wilfordine",
+          "wilfordine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "wilfordine",
+          "wilfordin"
+        ]
+      },
+      "wilfordidine": {
+        "synonyms": [
+          "wilfordidine",
+          "wilfordidine",
+          "wilfordine derivative"
+        ],
+        "common_misspellings": [
+          "wilfordidine",
+          "wilfordidin"
+        ]
+      },
+      "xylopine": {
+        "synonyms": [
+          "xylopine",
+          "xylopine",
+          "aporphine alkaloid"
+        ],
+        "common_misspellings": [
+          "xylopine",
+          "xylopin"
+        ]
+      },
+      "xylopidine": {
+        "synonyms": [
+          "xylopidine",
+          "xylopidine",
+          "xylopine derivative"
+        ],
+        "common_misspellings": [
+          "xylopidine",
+          "xylopidin"
+        ]
+      },
+      "yohimbol": {
+        "synonyms": [
+          "yohimbol",
+          "yohimbol",
+          "yohimbine derivative"
+        ],
+        "common_misspellings": [
+          "yohimbol",
+          "yohimbole"
+        ]
+      },
+      "yohimbolidine": {
+        "synonyms": [
+          "yohimbolidine",
+          "yohimbolidine",
+          "yohimbol derivative"
+        ],
+        "common_misspellings": [
+          "yohimbolidine",
+          "yohimbolidin"
+        ]
+      },
+      "zanthoxylene": {
+        "synonyms": [
+          "zanthoxylene",
+          "zanthoxylene",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "zanthoxylene",
+          "zanthoxylen"
+        ]
+      },
+      "zanthoxylidine": {
+        "synonyms": [
+          "zanthoxylidine",
+          "zanthoxylidine",
+          "zanthoxylene derivative"
+        ],
+        "common_misspellings": [
+          "zanthoxylidine",
+          "zanthoxylidin"
+        ]
+      },
+      "noratropine": {
+        "synonyms": [
+          "noratropine",
+          "noratropine",
+          "atropine derivative"
+        ],
+        "common_misspellings": [
+          "noratropine",
+          "noratropin"
+        ]
+      },
+      "homatropine": {
+        "synonyms": [
+          "homatropine",
+          "homatropine",
+          "tropane alkaloid"
+        ],
+        "common_misspellings": [
+          "homatropine",
+          "homatropin"
+        ],
+        "brand_names": [
+          "Isopto Homatropine"
+        ]
+      },
+      "methylatropine": {
+        "synonyms": [
+          "methylatropine",
+          "methylatropine",
+          "atropine derivative",
+          "methatropine"
+        ],
+        "common_misspellings": [
+          "methylatropine",
+          "methylatropin"
+        ]
+      },
+      "apohyoscine": {
+        "synonyms": [
+          "apohyoscine",
+          "apohyoscine",
+          "scopolamine derivative"
+        ],
+        "common_misspellings": [
+          "apohyoscine",
+          "apohyoscin"
+        ]
+      },
+      "norscopolamine": {
+        "synonyms": [
+          "norscopolamine",
+          "norscopolamine",
+          "scopolamine derivative"
+        ],
+        "common_misspellings": [
+          "norscopolamine",
+          "norscopolamin"
+        ]
+      },
+      "hyoscine N-oxide": {
+        "synonyms": [
+          "hyoscine N-oxide",
+          "hyoscine N-oxide",
+          "scopolamine N-oxide"
+        ],
+        "common_misspellings": [
+          "hyoscine N-oxide",
+          "scopolamine N-oxide"
+        ]
+      },
+      "tigloyltropine": {
+        "synonyms": [
+          "tigloyltropine",
+          "tigloyltropine",
+          "tropine ester"
+        ],
+        "common_misspellings": [
+          "tigloyltropine",
+          "tigloyltropin"
+        ]
+      },
+      "tigloylpseudotropine": {
+        "synonyms": [
+          "tigloylpseudotropine",
+          "tigloylpseudotropine",
+          "pseudotropine ester"
+        ],
+        "common_misspellings": [
+          "tigloylpseudotropine",
+          "tigloylpseudotropin"
+        ]
+      },
+      "benzoyltropine": {
+        "synonyms": [
+          "benzoyltropine",
+          "benzoyltropine",
+          "tropine ester"
+        ],
+        "common_misspellings": [
+          "benzoyltropine",
+          "benzoyltropin"
+        ]
+      },
+      "benzoylpseudotropine": {
+        "synonyms": [
+          "benzoylpseudotropine",
+          "benzoylpseudotropine",
+          "pseudotropine ester"
+        ],
+        "common_misspellings": [
+          "benzoylpseudotropine",
+          "benzoylpseudotropin"
+        ]
+      },
+      "cinnamoyltropine": {
+        "synonyms": [
+          "cinnamoyltropine",
+          "cinnamoyltropine",
+          "tropine ester"
+        ],
+        "common_misspellings": [
+          "cinnamoyltropine",
+          "cinnamoyltropin"
+        ]
+      },
+      "cinnamoylpseudotropine": {
+        "synonyms": [
+          "cinnamoylpseudotropine",
+          "cinnamoylpseudotropine",
+          "pseudotropine ester"
+        ],
+        "common_misspellings": [
+          "cinnamoylpseudotropine",
+          "cinnamoylpseudotropin"
+        ]
+      },
+      "tropyltropate": {
+        "synonyms": [
+          "tropyltropate",
+          "tropyltropate",
+          "tropine derivative"
+        ],
+        "common_misspellings": [
+          "tropyltropate",
+          "tropyltropat"
+        ]
+      },
+      "tropylisobutyrate": {
+        "synonyms": [
+          "tropylisobutyrate",
+          "tropylisobutyrate",
+          "tropine derivative"
+        ],
+        "common_misspellings": [
+          "tropylisobutyrate",
+          "tropylisobutyr"
+        ]
+      },
+      "tropylpropionate": {
+        "synonyms": [
+          "tropylpropionate",
+          "tropylpropionate",
+          "tropine derivative"
+        ],
+        "common_misspellings": [
+          "tropylpropionate",
+          "tropylpropionat"
+        ]
+      },
+      "tropylbutyrate": {
+        "synonyms": [
+          "tropylbutyrate",
+          "tropylbutyrate",
+          "tropine derivative"
+        ],
+        "common_misspellings": [
+          "tropylbutyrate",
+          "tropylbutyrat"
+        ]
+      },
+      "3α-tropanol": {
+        "synonyms": [
+          "3α-tropanol",
+          "3-alpha-tropanol",
+          "tropine"
+        ],
+        "common_misspellings": [
+          "3alpha-tropanol",
+          "tropine"
+        ]
+      },
+      "3β-tropanol": {
+        "synonyms": [
+          "3β-tropanol",
+          "3-beta-tropanol",
+          "pseudotropine"
+        ],
+        "common_misspellings": [
+          "3beta-tropanol",
+          "pseudotropine"
+        ]
+      },
+      "6β-hydroxyhyoscyamine": {
+        "synonyms": [
+          "6β-hydroxyhyoscyamine",
+          "6-beta-hydroxyhyoscyamine",
+          "hyoscyamine derivative"
+        ],
+        "common_misspellings": [
+          "6beta-hydroxyhyoscyamine",
+          "hydroxyhyoscyamine"
+        ]
+      },
+      "7β-hydroxyhyoscyamine": {
+        "synonyms": [
+          "7β-hydroxyhyoscyamine",
+          "7-beta-hydroxyhyoscyamine",
+          "hyoscyamine derivative"
+        ],
+        "common_misspellings": [
+          "7beta-hydroxyhyoscyamine",
+          "hydroxyhyoscyamine"
+        ]
+      },
+      "6β-hydroxyatropine": {
+        "synonyms": [
+          "6β-hydroxyatropine",
+          "6-beta-hydroxyatropine",
+          "atropine derivative"
+        ],
+        "common_misspellings": [
+          "6beta-hydroxyatropine",
+          "hydroxyatropine"
+        ]
+      },
+      "7β-hydroxyatropine": {
+        "synonyms": [
+          "7β-hydroxyatropine",
+          "7-beta-hydroxyatropine",
+          "atropine derivative"
+        ],
+        "common_misspellings": [
+          "7beta-hydroxyatropine",
+          "hydroxyatropine"
+        ]
+      },
+      "norcoclaurine": {
+        "synonyms": [
+          "norcoclaurine",
+          "norcoclaurine",
+          "benzylisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "norcoclaurine",
+          "norcoclaurin"
+        ]
+      },
+      "coclaurine": {
+        "synonyms": [
+          "coclaurine",
+          "coclaurine",
+          "benzylisoquinoline alkaloid"
+        ],
+        "common_misspellings": [
+          "coclaurine",
+          "coclaurin"
+        ]
+      },
+      "norreticuline": {
+        "synonyms": [
+          "norreticuline",
+          "norreticuline",
+          "reticuline derivative"
+        ],
+        "common_misspellings": [
+          "norreticuline",
+          "norreticulin"
+        ]
+      },
+      "norscoulerine": {
+        "synonyms": [
+          "norscoulerine",
+          "norscoulerine",
+          "scoulerine derivative"
+        ],
+        "common_misspellings": [
+          "norscoulerine",
+          "norscoulerin"
+        ]
+      },
+      "norcheilanthifoline": {
+        "synonyms": [
+          "norcheilanthifoline",
+          "norcheilanthifoline",
+          "protoberberine alkaloid"
+        ],
+        "common_misspellings": [
+          "norcheilanthifoline",
+          "norcheilanthifolin"
+        ]
+      },
+      "norstylopine": {
+        "synonyms": [
+          "norstylopine",
+          "norstylopine",
+          "protoberberine alkaloid"
+        ],
+        "common_misspellings": [
+          "norstylopine",
+          "norstylopin"
+        ]
+      },
+      "norsanguinarine": {
+        "synonyms": [
+          "norsanguinarine",
+          "norsanguinarine",
+          "benzophenanthridine alkaloid"
+        ],
+        "common_misspellings": [
+          "norsanguinarine",
+          "norsanguinarin"
+        ]
+      },
+      "norchelerythrine": {
+        "synonyms": [
+          "norchelerythrine",
+          "norchelerythrine",
+          "benzophenanthridine alkaloid"
+        ],
+        "common_misspellings": [
+          "norchelerythrine",
+          "norchelerythrin"
+        ]
+      },
+      "norchelidonine": {
+        "synonyms": [
+          "norchelidonine",
+          "norchelidonine",
+          "benzophenanthridine alkaloid"
+        ],
+        "common_misspellings": [
+          "norchelidonine",
+          "norchelidonin"
+        ]
+      },
+      "norberberine": {
+        "synonyms": [
+          "norberberine",
+          "norberberine",
+          "berberine derivative"
+        ],
+        "common_misspellings": [
+          "norberberine",
+          "norberberin"
+        ]
+      },
+      "norpalmatine": {
+        "synonyms": [
+          "norpalmatine",
+          "norpalmatine",
+          "palmatine derivative"
+        ],
+        "common_misspellings": [
+          "norpalmatine",
+          "norpalmatin"
+        ]
+      },
+      "norjatrorrhizine": {
+        "synonyms": [
+          "norjatrorrhizine",
+          "norjatrorrhizine",
+          "jatrorrhizine derivative"
+        ],
+        "common_misspellings": [
+          "norjatrorrhizine",
+          "norjatrorrhizin"
+        ]
+      },
+      "norcolumbamine": {
+        "synonyms": [
+          "norcolumbamine",
+          "norcolumbamine",
+          "columbamine derivative"
+        ],
+        "common_misspellings": [
+          "norcolumbamine",
+          "norcolumbamin"
+        ]
+      },
+      "dihydrosanguinarine": {
+        "synonyms": [
+          "dihydrosanguinarine",
+          "dihydrosanguinarine",
+          "sanguinarine derivative"
+        ],
+        "common_misspellings": [
+          "dihydrosanguinarine",
+          "dihydrosanguinarin"
+        ]
+      },
+      "dihydrochelerythrine": {
+        "synonyms": [
+          "dihydrochelerythrine",
+          "dihydrochelerythrine",
+          "chelerythrine derivative"
+        ],
+        "common_misspellings": [
+          "dihydrochelerythrine",
+          "dihydrochelerythrin"
+        ]
+      },
+      "isochelerythrine": {
+        "synonyms": [
+          "isochelerythrine",
+          "isochelerythrine",
+          "chelerythrine isomer"
+        ],
+        "common_misspellings": [
+          "isochelerythrine",
+          "isochelerythrin"
+        ]
+      },
+      "ethoxysanguinarine": {
+        "synonyms": [
+          "ethoxysanguinarine",
+          "ethoxysanguinarine",
+          "sanguinarine derivative"
+        ],
+        "common_misspellings": [
+          "ethoxysanguinarine",
+          "ethoxysanguinarin"
+        ]
+      },
+      "corypalmine": {
+        "synonyms": [
+          "corypalmine",
+          "corypalmine",
+          "protoberberine alkaloid"
+        ],
+        "common_misspellings": [
+          "corypalmine",
+          "corypalmin"
+        ]
+      },
+      "isocorypalmine": {
+        "synonyms": [
+          "isocorypalmine",
+          "isocorypalmine",
+          "corypalmine isomer"
+        ],
+        "common_misspellings": [
+          "isocorypalmine",
+          "isocorypalmin"
+        ]
+      },
+      "coptisine": {
+        "synonyms": [
+          "coptisine",
+          "coptisine",
+          "protoberberine alkaloid"
+        ],
+        "common_misspellings": [
+          "coptisine",
+          "coptisin"
+        ]
+      },
+      "stepharanine": {
+        "synonyms": [
+          "stepharanine",
+          "stepharanine",
+          "protoberberine alkaloid"
+        ],
+        "common_misspellings": [
+          "stepharanine",
+          "stepharanin"
+        ]
+      },
+      "coreximine": {
+        "synonyms": [
+          "coreximine",
+          "coreximine",
+          "protoberberine alkaloid"
+        ],
+        "common_misspellings": [
+          "coreximine",
+          "coreximin"
+        ]
+      },
+      "discretamine": {
+        "synonyms": [
+          "discretamine",
+          "discretamine",
+          "protoberberine alkaloid"
+        ],
+        "common_misspellings": [
+          "discretamine",
+          "discretamin"
+        ]
+      },
+      "cheilanthifoline": {
+        "synonyms": [
+          "cheilanthifoline",
+          "cheilanthifoline",
+          "protoberberine alkaloid"
+        ],
+        "common_misspellings": [
+          "cheilanthifoline",
+          "cheilanthifolin"
+        ]
+      },
+      "nandigerine": {
+        "synonyms": [
+          "nandigerine",
+          "nandigerine",
+          "aporphine alkaloid"
+        ],
+        "common_misspellings": [
+          "nandigerine",
+          "nandigerin"
+        ]
+      },
+      "cassythine": {
+        "synonyms": [
+          "cassythine",
+          "cassythine",
+          "aporphine alkaloid"
+        ],
+        "common_misspellings": [
+          "cassythine",
+          "cassythin"
+        ]
+      },
+      "litseferine": {
+        "synonyms": [
+          "litseferine",
+          "litseferine",
+          "aporphine alkaloid"
+        ],
+        "common_misspellings": [
+          "litseferine",
+          "litseferin"
+        ]
+      },
+      "actinodaphnine": {
+        "synonyms": [
+          "actinodaphnine",
+          "actinodaphnine",
+          "aporphine alkaloid"
+        ],
+        "common_misspellings": [
+          "actinodaphnine",
+          "actinodaphnin"
+        ]
+      },
+      "sinomenine": {
+        "synonyms": [
+          "sinomenine",
+          "sinomenine",
+          "morphinan alkaloid"
+        ],
+        "common_misspellings": [
+          "sinomenine",
+          "sinomenin"
+        ]
+      },
+      "hasubanonine": {
+        "synonyms": [
+          "hasubanonine",
+          "hasubanonine",
+          "hasubanan alkaloid"
+        ],
+        "common_misspellings": [
+          "hasubanonine",
+          "hasubanonin"
+        ]
+      },
+      "stephasinine": {
+        "synonyms": [
+          "stephasinine",
+          "stephasinine",
+          "hasubanan alkaloid"
+        ],
+        "common_misspellings": [
+          "stephasinine",
+          "stephasinin"
+        ]
+      },
+      "runanine": {
+        "synonyms": [
+          "runanine",
+          "runanine",
+          "hasubanan alkaloid"
+        ],
+        "common_misspellings": [
+          "runanine",
+          "runanin"
+        ]
+      },
+      "acutumine": {
+        "synonyms": [
+          "acutumine",
+          "acutumine",
+          "hasubanan alkaloid"
+        ],
+        "common_misspellings": [
+          "acutumine",
+          "acutumin"
+        ]
+      },
+      "picrotoxine": {
+        "synonyms": [
+          "picrotoxine",
+          "picrotoxine",
+          "picrotoxin",
+          "cocculin"
+        ],
+        "common_misspellings": [
+          "picrotoxine",
+          "picrotoxin"
+        ]
+      },
+      "picrotin": {
+        "synonyms": [
+          "picrotin",
+          "picrotin",
+          "picrotoxin component"
+        ],
+        "common_misspellings": [
+          "picrotin",
+          "picrotine"
+        ]
+      },
+      "picrotoxinin": {
+        "synonyms": [
+          "picrotoxinin",
+          "picrotoxinin",
+          "picrotoxin component"
+        ],
+        "common_misspellings": [
+          "picrotoxinin",
+          "picrotoxinine"
+        ]
+      },
+      "dendrobine": {
+        "synonyms": [
+          "dendrobine",
+          "dendrobine",
+          "Dendrobium alkaloid"
+        ],
+        "common_misspellings": [
+          "dendrobine",
+          "dendrobin"
+        ]
+      },
+      "dendroxine": {
+        "synonyms": [
+          "dendroxine",
+          "dendroxine",
+          "dendrobine derivative"
+        ],
+        "common_misspellings": [
+          "dendroxine",
+          "dendroxin"
+        ]
+      },
+      "dendramine": {
+        "synonyms": [
+          "dendramine",
+          "dendramine",
+          "dendrobine derivative"
+        ],
+        "common_misspellings": [
+          "dendramine",
+          "dendramin"
+        ]
+      },
+      "dendrine": {
+        "synonyms": [
+          "dendrine",
+          "dendrine",
+          "dendrobine derivative"
+        ],
+        "common_misspellings": [
+          "dendrine",
+          "dendrin"
+        ]
+      },
+      "hyelline": {
+        "synonyms": [
+          "hyelline",
+          "hyelline",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "hyelline",
+          "hyellin"
+        ]
+      },
+      "crepidine": {
+        "synonyms": [
+          "crepidine",
+          "crepidine",
+          "indole alkaloid"
+        ],
+        "common_misspellings": [
+          "crepidine",
+          "crepidin"
+        ]
+      },
+      "crepidamine": {
+        "synonyms": [
+          "crepidamine",
+          "crepidamine",
+          "crepidine derivative"
+        ],
+        "common_misspellings": [
+          "crepidamine",
+          "crepidamin"
+        ]
+      },
+      "pyrrolidine": {
+        "synonyms": [
+          "pyrrolidine",
+          "pyrrolidine",
+          "azolidine",
+          "tetrahydropyrrole"
+        ],
+        "common_misspellings": [
+          "pyrrolidine",
+          "pyrrolidin"
+        ]
+      },
+      "piperidine": {
+        "synonyms": [
+          "piperidine",
+          "piperidine",
+          "azacyclohexane",
+          "hexahydropyridine"
+        ],
+        "common_misspellings": [
+          "piperidine",
+          "piperidin"
+        ]
+      },
+      "quinolizidine": {
+        "synonyms": [
+          "quinolizidine",
+          "quinolizidine",
+          "norlupinane"
+        ],
+        "common_misspellings": [
+          "quinolizidine",
+          "quinolizidin"
+        ]
+      },
+      "indolizidine": {
+        "synonyms": [
+          "indolizidine",
+          "indolizidine",
+          "quinolizine"
+        ],
+        "common_misspellings": [
+          "indolizidine",
+          "indolizidin"
+        ]
+      },
+      "pyrrolizidine": {
+        "synonyms": [
+          "pyrrolizidine",
+          "pyrrolizidine",
+          "hexahydropyrrolizine"
+        ],
+        "common_misspellings": [
+          "pyrrolizidine",
+          "pyrrolizidin"
+        ]
+      },
+      "imidazole": {
+        "synonyms": [
+          "imidazole",
+          "imidazole",
+          "1,3-diazole",
+          "glyoxalin"
+        ],
+        "common_misspellings": [
+          "imidazole",
+          "imidazol"
+        ]
+      },
+      "oxazole": {
+        "synonyms": [
+          "oxazole",
+          "oxazole",
+          "1,3-oxazole"
+        ],
+        "common_misspellings": [
+          "oxazole",
+          "oxazol"
+        ]
+      },
+      "thiazole": {
+        "synonyms": [
+          "thiazole",
+          "thiazole",
+          "1,3-thiazole"
+        ],
+        "common_misspellings": [
+          "thiazole",
+          "thiazol"
+        ]
+      }
+    }
+  }
+}

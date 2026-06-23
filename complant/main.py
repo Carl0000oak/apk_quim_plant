@@ -1,12 +1,26 @@
-﻿from .db_manager import DatabaseManager
-from .search.pubmed import buscar_pubmed
-import requests
-import json
+"""
+🌿 COMPLANT - Módulo Principal
+"""
 
-db = DatabaseManager()
+from .db_manager import db
+from .search.pubmed import buscar_pubmed
+from .search.wikipedia import buscar_foto_wikipedia
+from collections import Counter, defaultdict
+
+# ============================================
+# BASE DE DADOS
+# ============================================
+
+VALID_COMPOUNDS = []
 
 def carregar_banco():
-    return db.baixar()
+    """Carrega TODOS os dados"""
+    global VALID_COMPOUNDS
+    if db.baixar():
+        VALID_COMPOUNDS = db.get_all()
+        print(f"📚 {len(VALID_COMPOUNDS)} compostos disponíveis")
+        return True
+    return False
 
 def buscar_compostos(termo):
     return db.buscar(termo)
@@ -17,53 +31,91 @@ def listar_categorias():
 def compostos_por_categoria(categoria):
     return db.get_categoria(categoria)
 
-def analisar_planta(nome_planta, max_artigos=5):
+def get_funcoes(composto):
+    return db.get_funcoes(composto)
+
+# ============================================
+# ANALISAR PLANTA
+# ============================================
+
+def analisar_planta(nome_planta, max_artigos=15):  # ← MUDOU PARA 15
     print(f"\n🔍 ANALISANDO PLANTA: {nome_planta}")
     print("=" * 50)
     
     if not carregar_banco():
         return None
     
-    # Buscar artigos
-    artigos = buscar_pubmed(nome_planta, max_artigos)
+    artigos = buscar_pubmed(nome_planta, max_artigos)  # ← USA 15
     if not artigos:
         print("❌ Nenhum artigo encontrado")
         return None
     
-    # Buscar compostos nos artigos
-    compostos_encontrados = {}
+    print(f"📄 {len(artigos)} artigos analisados")
+    
+    # Extrair compostos
+    compostos = {}
     for artigo in artigos:
-        texto = f"{artigo.get('titulo', '')} {artigo.get('resumo', '')}".lower()
-        for categoria in db.get_categorias():
-            for composto in db.get_categoria(categoria):
-                if composto in texto:
-                    if composto not in compostos_encontrados:
-                        compostos_encontrados[composto] = {
-                            'categoria': categoria,
-                            'freq': 0
-                        }
-                    compostos_encontrados[composto]['freq'] += 1
+        texto = f"{artigo.get('titulo', '')} {artigo.get('resumo', '')} {artigo.get('texto_completo', '')}".lower()
+        pmid = artigo.get('pmid', '')
+        
+        for comp in VALID_COMPOUNDS:
+            comp_lower = comp.lower()
+            comp_norm = db.normalizar_composto(comp)
+            
+            if comp_lower in texto or comp_norm in texto:
+                if comp not in compostos:
+                    compostos[comp] = {'freq': 0, 'categoria': 'MISCELLANEOUS', 'artigos': []}
+                compostos[comp]['freq'] += 1
+                compostos[comp]['artigos'].append(pmid)
+                
+                for cat, comps in db.data.get('categories', {}).items():
+                    if comp in comps:
+                        compostos[comp]['categoria'] = cat
+                        break
     
-    print(f"\n✅ Encontrados {len(compostos_encontrados)} compostos:")
-    for composto, info in sorted(compostos_encontrados.items(), key=lambda x: x[1]['freq'], reverse=True):
-        print(f"  • {composto} ({info['categoria']}) - {info['freq']} artigos")
+    if not compostos:
+        print("❌ Nenhum composto encontrado")
+        return None
     
-    return compostos_encontrados
+    # Organizar resultados
+    resultados = []
+    for comp, info in compostos.items():
+        funcoes = db.get_funcoes(comp)
+        resultados.append({
+            'compound': comp,
+            'freq': info['freq'],
+            'family': info['categoria'],
+            'category': info['categoria'],
+            'articles': len(info['artigos']),
+            'agriculture': funcoes.get('agriculture', ['-']),
+            'health': funcoes.get('health', ['-']),
+            'food': funcoes.get('food', ['-'])
+        })
+    
+    resultados = sorted(resultados, key=lambda x: x['freq'], reverse=True)
+    
+    print(f"\n✅ Encontrados {len(resultados)} compostos:")
+    for item in resultados[:20]:
+        print(f"  • {item['compound']} ({item['family']}) - {item['freq']} artigos")
+    
+    return resultados
 
-def buscar_plantas_por_composto(composto, max_artigos=10):
+# ============================================
+# BUSCAR PLANTAS POR COMPOSTO
+# ============================================
+
+def buscar_plantas_por_composto(composto, max_artigos=5):
     print(f"\n🧪 BUSCANDO PLANTAS COM: {composto}")
     print("=" * 50)
     
     if not carregar_banco():
         return None
     
-    # Buscar artigos sobre o composto
     artigos = buscar_pubmed(composto, max_artigos)
     if not artigos:
         print("❌ Nenhum artigo encontrado")
         return None
     
-    # Lista de plantas para buscar
     plantas_comuns = [
         'lippia', 'mentha', 'rosmarinus', 'camellia', 'hypericum',
         'aloe', 'curcuma', 'zingiber', 'lavandula', 'thymus',
@@ -90,6 +142,10 @@ def buscar_plantas_por_composto(composto, max_artigos=10):
         print(f"  🌿 {planta.title()} - {len(artigos_lista)} artigos")
     
     return plantas_encontradas
+
+# ============================================
+# MENU PRINCIPAL
+# ============================================
 
 def main():
     print("🌿 COMPLANT - Análise Fitoquímica")

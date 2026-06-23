@@ -1,4 +1,4 @@
 @echo off
 cd C:\Users\carl\apk_quim_plant
-python testar.py
+python complant_app.py
 pause

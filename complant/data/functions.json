@@ -1,0 +1,735 @@
+{
+  "version": "1.0.0",
+  "last_update": "2024-06-23",
+  "total_compounds": 20000,
+  "functions_by_category": {
+    "ALKALOIDS": {
+      "agriculture": ["Herbivory defense", "Pesticide", "Antimicrobial defense", "Allelopathy"],
+      "health": ["Stimulant", "Antimicrobial", "Anti-inflammatory", "Analgesic", "Antitumor"],
+      "food": ["Functional", "Flavoring", "Preservative"]
+    },
+    "MONOTERPENES": {
+      "agriculture": ["Insect repellent", "Biopesticide", "Attractant", "Antifungal"],
+      "health": ["Antimicrobial", "Antioxidant", "Anti-inflammatory", "Anxiolytic"],
+      "food": ["Natural flavoring", "Preservative", "Aroma"]
+    },
+    "SESQUITERPENES": {
+      "agriculture": ["Allelopathy", "Insect repellent", "Antifungal"],
+      "health": ["Anti-inflammatory", "Analgesic", "Antimicrobial"],
+      "food": ["Flavoring", "Preservative", "Aroma"]
+    },
+    "DITERPENES": {
+      "agriculture": ["Antimicrobial defense", "Plant growth regulator"],
+      "health": ["Antitumor", "Antimicrobial", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "TRITERPENES": {
+      "agriculture": ["Pathogen defense", "Stress defense", "Antimicrobial"],
+      "health": ["Anti-inflammatory", "Antitumor", "Hepatoprotective", "Antiviral"],
+      "food": ["Functional", "Preservative"]
+    },
+    "CAROTENOIDS": {
+      "agriculture": ["Photosynthetic pigment", "UV protection", "Antioxidant defense"],
+      "health": ["Antioxidant", "Provitamin A", "Eye health", "Cardioprotective"],
+      "food": ["Natural colorant", "Supplement", "Functional"]
+    },
+    "FLAVONOIDS": {
+      "agriculture": ["UV protection", "Antioxidant defense", "Herbivory defense", "Allelopathy"],
+      "health": ["Antioxidant", "Anti-inflammatory", "Vasoprotective", "Neuroprotective"],
+      "food": ["Functional", "Preservative", "Natural colorant"]
+    },
+    "ISOFLAVONOIDS": {
+      "agriculture": ["Antioxidant defense", "Herbivory defense"],
+      "health": ["Antioxidant", "Hormonal regulation", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "ANTHOCYANINS": {
+      "agriculture": ["UV protection", "Antioxidant defense", "Pollinator attraction"],
+      "health": ["Antioxidant", "Anti-inflammatory", "Cardioprotective"],
+      "food": ["Natural colorant", "Functional", "Preservative"]
+    },
+    "CHALCONES": {
+      "agriculture": ["Antimicrobial defense", "Allelopathy"],
+      "health": ["Antioxidant", "Anti-inflammatory", "Antimicrobial"],
+      "food": ["Functional", "Preservative", "Natural colorant"]
+    },
+    "PHENOLIC_ACIDS": {
+      "agriculture": ["Oxidative stress defense", "Pathogen defense", "UV protection"],
+      "health": ["Antioxidant", "Anti-inflammatory", "Antimicrobial", "Photoprotective"],
+      "food": ["Natural preservative", "Antioxidant", "Functional"]
+    },
+    "LIGNANS": {
+      "agriculture": ["Antioxidant defense", "Pathogen defense"],
+      "health": ["Antioxidant", "Antitumor", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "STILBENES": {
+      "agriculture": ["Stress defense", "Antimicrobial defense"],
+      "health": ["Antioxidant", "Cardioprotective", "Antitumor"],
+      "food": ["Functional", "Preservative"]
+    },
+    "STEROLS": {
+      "agriculture": ["Membrane stability", "Stress defense"],
+      "health": ["Cholesterol regulation", "Anti-inflammatory"],
+      "food": ["Functional", "Supplement"]
+    },
+    "SAPONINS": {
+      "agriculture": ["Antimicrobial defense", "Herbivory defense"],
+      "health": ["Anti-inflammatory", "Immunomodulator", "Antitumor"],
+      "food": ["Functional", "Preservative"]
+    },
+    "CARDIAC_GLYCOSIDES": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Cardiotonic", "Diuretic"],
+      "food": ["Functional"]
+    },
+    "AMINO_ACIDS": {
+      "agriculture": ["Nitrogen source", "Stress defense"],
+      "health": ["Essential nutrient", "Neurotransmitter", "Antioxidant"],
+      "food": ["Supplement", "Flavoring", "Functional"]
+    },
+    "FATTY_ACIDS": {
+      "agriculture": ["Energy storage", "Membrane component"],
+      "health": ["Essential nutrient", "Anti-inflammatory", "Cardioprotective"],
+      "food": ["Energy source", "Functional", "Preservative"]
+    },
+    "VITAMINS": {
+      "agriculture": ["Growth regulator", "Antioxidant defense"],
+      "health": ["Essential nutrient", "Antioxidant", "Immunomodulator", "Vision"],
+      "food": ["Supplement", "Functional", "Preservative"]
+    },
+    "VOLATILES": {
+      "agriculture": ["Pollinator attraction", "Insect repellent", "Plant signaling"],
+      "health": ["Antimicrobial", "Antioxidant", "Anxiolytic"],
+      "food": ["Flavoring", "Aroma", "Preservative"]
+    },
+    "MISCELLANEOUS": {
+      "agriculture": ["Stress defense", "Plant signaling"],
+      "health": ["Antioxidant", "Neurotransmitter", "Immunomodulator"],
+      "food": ["Functional", "Preservative", "Supplement"]
+    }
+  },
+  "specific_compounds": {
+    "Limonene": {
+      "agriculture": ["Biopesticide", "Insect repellent"],
+      "health": ["Antimicrobial", "Antioxidant"],
+      "food": ["Natural flavoring", "Preservative"]
+    },
+    "Linalool": {
+      "agriculture": ["Biopesticide", "Pollinator attraction"],
+      "health": ["Antimicrobial", "Anxiolytic"],
+      "food": ["Flavoring", "Preservative"]
+    },
+    "Thymol": {
+      "agriculture": ["Biopesticide", "Antifungal"],
+      "health": ["Antimicrobial", "Antioxidant"],
+      "food": ["Natural preservative", "Flavoring"]
+    },
+    "Carvacrol": {
+      "agriculture": ["Biopesticide", "Antifungal"],
+      "health": ["Antimicrobial", "Antioxidant"],
+      "food": ["Natural preservative", "Flavoring"]
+    },
+    "Eugenol": {
+      "agriculture": ["Biopesticide", "Antifungal"],
+      "health": ["Antimicrobial", "Anesthetic"],
+      "food": ["Natural preservative", "Flavoring"]
+    },
+    "Menthol": {
+      "agriculture": ["Insect repellent"],
+      "health": ["Analgesic", "Antimicrobial"],
+      "food": ["Flavoring", "Preservative"]
+    },
+    "Camphor": {
+      "agriculture": ["Insect repellent"],
+      "health": ["Antimicrobial", "Anti-inflammatory"],
+      "food": ["Flavoring", "Preservative"]
+    },
+    "Caryophyllene": {
+      "agriculture": ["Allelopathy"],
+      "health": ["Anti-inflammatory", "Analgesic"],
+      "food": ["Flavoring", "Preservative"]
+    },
+    "Citral": {
+      "agriculture": ["Insect repellent", "Antifungal"],
+      "health": ["Antimicrobial", "Anti-inflammatory"],
+      "food": ["Flavoring", "Preservative"]
+    },
+    "Myrcene": {
+      "agriculture": ["Insect attractant"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Flavoring", "Aroma"]
+    },
+    "Geraniol": {
+      "agriculture": ["Insect repellent", "Attractant"],
+      "health": ["Antioxidant", "Antimicrobial"],
+      "food": ["Flavoring", "Aroma"]
+    },
+    "Quercetin": {
+      "agriculture": ["Oxidative stress defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Natural preservative", "Antioxidant"]
+    },
+    "Rutin": {
+      "agriculture": ["Drought stress defense"],
+      "health": ["Antioxidant", "Vasoprotective"],
+      "food": ["Color stabilizer", "Functional"]
+    },
+    "Apigenin": {
+      "agriculture": ["Herbivory defense", "Allelopathy"],
+      "health": ["Anti-inflammatory", "Antioxidant"],
+      "food": ["Natural preservative", "Functional"]
+    },
+    "Catechin": {
+      "agriculture": ["Oxidative stress defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Kaempferol": {
+      "agriculture": ["UV protection", "Antioxidant defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Luteolin": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Anti-inflammatory", "Neuroprotective"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Myricetin": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Antidiabetic"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Hesperidin": {
+      "agriculture": ["Stress defense"],
+      "health": ["Vasoprotective", "Antioxidant"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Naringenin": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Anti-inflammatory", "Antioxidant"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Caffeic Acid": {
+      "agriculture": ["Oxidative stress defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Natural preservative", "Antioxidant"]
+    },
+    "Ferulic Acid": {
+      "agriculture": ["Stress defense", "UV protection"],
+      "health": ["Antioxidant", "Photoprotective"],
+      "food": ["Preservative", "Antioxidant"]
+    },
+    "Gallic Acid": {
+      "agriculture": ["Pathogen defense"],
+      "health": ["Antioxidant", "Antimicrobial"],
+      "food": ["Natural preservative", "Antioxidant"]
+    },
+    "Chlorogenic Acid": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Preservative", "Functional"]
+    },
+    "Rosmarinic Acid": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Preservative", "Functional"]
+    },
+    "Ellagic Acid": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Anticancer"],
+      "food": ["Preservative", "Functional"]
+    },
+    "Salicylic Acid": {
+      "agriculture": ["Plant defense hormone"],
+      "health": ["Anti-inflammatory", "Analgesic"],
+      "food": ["Preservative", "Functional"]
+    },
+    "Resveratrol": {
+      "agriculture": ["Stress defense"],
+      "health": ["Antioxidant", "Cardioprotective"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Curcumin": {
+      "agriculture": ["Antimicrobial defense"],
+      "health": ["Anti-inflammatory", "Antioxidant"],
+      "food": ["Natural colorant", "Preservative"]
+    },
+    "Gingerol": {
+      "agriculture": ["Antimicrobial defense"],
+      "health": ["Anti-inflammatory", "Antioxidant"],
+      "food": ["Flavoring", "Preservative"]
+    },
+    "Piperine": {
+      "agriculture": ["Insect repellent"],
+      "health": ["Anti-inflammatory", "Antioxidant"],
+      "food": ["Flavoring", "Preservative"]
+    },
+    "Capsaicin": {
+      "agriculture": ["Insect repellent"],
+      "health": ["Analgesic", "Anti-inflammatory"],
+      "food": ["Flavoring", "Preservative"]
+    },
+    "Ascorbic Acid": {
+      "agriculture": ["Oxidative stress defense"],
+      "health": ["Antioxidant", "Immunomodulator"],
+      "food": ["Natural preservative", "Supplement"]
+    },
+    "Alpha-Tocopherol": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Neuroprotective"],
+      "food": ["Preservative", "Supplement"]
+    },
+    "Retinol": {
+      "agriculture": ["Plant growth regulator"],
+      "health": ["Vision", "Skin health"],
+      "food": ["Supplement", "Functional"]
+    },
+    "Caffeine": {
+      "agriculture": ["Plant defense", "Herbivory deterrent"],
+      "health": ["Stimulant", "Antioxidant"],
+      "food": ["Flavoring", "Functional"]
+    },
+    "Nicotine": {
+      "agriculture": ["Pesticide", "Insecticide"],
+      "health": ["Stimulant", "Nootropic"],
+      "food": ["Functional"]
+    },
+    "Berberine": {
+      "agriculture": ["Antimicrobial defense"],
+      "health": ["Antimicrobial", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Quinine": {
+      "agriculture": ["Antimalarial defense"],
+      "health": ["Antimalarial", "Antipyretic"],
+      "food": ["Flavoring", "Functional"]
+    },
+    "Ursolic Acid": {
+      "agriculture": ["Stress defense"],
+      "health": ["Anti-inflammatory", "Antitumor"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Oleanolic Acid": {
+      "agriculture": ["Pathogen defense"],
+      "health": ["Anti-inflammatory", "Hepatoprotective"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Betulinic Acid": {
+      "agriculture": ["Pathogen defense"],
+      "health": ["Anti-inflammatory", "Antitumor"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Glycyrrhetinic Acid": {
+      "agriculture": ["Stress defense"],
+      "health": ["Anti-inflammatory", "Antiviral"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Beta-Carotene": {
+      "agriculture": ["Photosynthetic pigment"],
+      "health": ["Provitamin A", "Antioxidant"],
+      "food": ["Natural colorant", "Supplement"]
+    },
+    "Lycopene": {
+      "agriculture": ["Photosynthetic pigment"],
+      "health": ["Antioxidant", "Cardioprotective"],
+      "food": ["Natural colorant", "Supplement"]
+    },
+    "Lutein": {
+      "agriculture": ["Photosynthetic pigment"],
+      "health": ["Eye health", "Antioxidant"],
+      "food": ["Natural colorant", "Supplement"]
+    },
+    "Zeaxanthin": {
+      "agriculture": ["Photosynthetic pigment"],
+      "health": ["Eye health", "Antioxidant"],
+      "food": ["Natural colorant", "Supplement"]
+    },
+    "Astaxanthin": {
+      "agriculture": ["Protective pigment"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Natural colorant", "Supplement"]
+    },
+    "Morphine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Analgesic", "Narcotic"],
+      "food": ["Functional"]
+    },
+    "Codeine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Analgesic", "Antitussive"],
+      "food": ["Functional"]
+    },
+    "Papaverine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Vasodilator", "Spasmolytic"],
+      "food": ["Functional"]
+    },
+    "Thebaine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Analgesic precursor"],
+      "food": ["Functional"]
+    },
+    "Theophylline": {
+      "agriculture": ["Plant defense"],
+      "health": ["Bronchodilator", "Stimulant"],
+      "food": ["Functional"]
+    },
+    "Theobromine": {
+      "agriculture": ["Plant defense"],
+      "health": ["Stimulant", "Vasodilator"],
+      "food": ["Functional", "Flavoring"]
+    },
+    "Scopolamine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Anticholinergic", "Anti-motion sickness"],
+      "food": ["Functional"]
+    },
+    "Atropine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Anticholinergic", "Antidote"],
+      "food": ["Functional"]
+    },
+    "Reserpine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Antihypertensive", "Antipsychotic"],
+      "food": ["Functional"]
+    },
+    "Yohimbine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Stimulant", "Aphrodisiac"],
+      "food": ["Functional"]
+    },
+    "Ajmaline": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Antiarrhythmic"],
+      "food": ["Functional"]
+    },
+    "Colchicine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Anti-inflammatory", "Antimitotic"],
+      "food": ["Functional"]
+    },
+    "Strychnine": {
+      "agriculture": ["Pesticide", "Herbivory defense"],
+      "health": ["Toxin", "Stimulant"],
+      "food": ["Functional"]
+    },
+    "Brucine": {
+      "agriculture": ["Pesticide", "Herbivory defense"],
+      "health": ["Toxin", "Anti-inflammatory"],
+      "food": ["Functional"]
+    },
+    "Ergotamine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Vasoconstrictor", "Antimigraine"],
+      "food": ["Functional"]
+    },
+    "Vincristine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Antitumor", "Anticancer"],
+      "food": ["Functional"]
+    },
+    "Vinblastine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Antitumor", "Anticancer"],
+      "food": ["Functional"]
+    },
+    "Pilocarpine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Parasympathomimetic", "Glaucoma treatment"],
+      "food": ["Functional"]
+    },
+    "Arecoline": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Stimulant", "Anthelmintic"],
+      "food": ["Functional"]
+    },
+    "Cocaine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Stimulant", "Local anesthetic"],
+      "food": ["Functional"]
+    },
+    "Solanine": {
+      "agriculture": ["Herbivory defense", "Antimicrobial"],
+      "health": ["Toxin", "Anti-inflammatory"],
+      "food": ["Functional"]
+    },
+    "Capsaicin": {
+      "agriculture": ["Insect repellent"],
+      "health": ["Analgesic", "Anti-inflammatory"],
+      "food": ["Flavoring", "Preservative"]
+    },
+    "Piperine": {
+      "agriculture": ["Insect repellent"],
+      "health": ["Anti-inflammatory", "Antioxidant"],
+      "food": ["Flavoring", "Preservative"]
+    },
+    "Coniine": {
+      "agriculture": ["Pesticide"],
+      "health": ["Toxin", "Paralytic"],
+      "food": ["Functional"]
+    },
+    "Lobeline": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Respiratory stimulant", "Smoking cessation"],
+      "food": ["Functional"]
+    },
+    "Ephedrine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Stimulant", "Bronchodilator"],
+      "food": ["Functional"]
+    },
+    "Pseudoephedrine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Decongestant", "Stimulant"],
+      "food": ["Functional"]
+    },
+    "Harmine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["MAOI", "Stimulant"],
+      "food": ["Functional"]
+    },
+    "Harmaline": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["MAOI", "Stimulant"],
+      "food": ["Functional"]
+    },
+    "Ibogaine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Anti-addiction", "Stimulant"],
+      "food": ["Functional"]
+    },
+    "Tetrahydrocannabinol": {
+      "agriculture": ["Herbivory defense", "UV protection"],
+      "health": ["Psychoactive", "Anti-inflammatory", "Analgesic"],
+      "food": ["Functional"]
+    },
+    "Cannabidiol": {
+      "agriculture": ["Herbivory defense", "UV protection"],
+      "health": ["Anti-inflammatory", "Anxiolytic", "Anticonvulsant"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Cannabinol": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Anti-inflammatory", "Sedative"],
+      "food": ["Functional"]
+    },
+    "Mitragynine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Stimulant", "Analgesic"],
+      "food": ["Functional"]
+    },
+    "Aconitine": {
+      "agriculture": ["Pesticide", "Herbivory defense"],
+      "health": ["Toxin", "Analgesic"],
+      "food": ["Functional"]
+    },
+    "Diosgenin": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Steroid precursor", "Anti-inflammatory"],
+      "food": ["Functional"]
+    },
+    "Sparteine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Antiarrhythmic", "Stimulant"],
+      "food": ["Functional"]
+    },
+    "Cytisine": {
+      "agriculture": ["Herbivory defense", "Pesticide"],
+      "health": ["Smoking cessation", "Stimulant"],
+      "food": ["Functional"]
+    },
+    "Matrine": {
+      "agriculture": ["Pesticide", "Antimicrobial"],
+      "health": ["Anti-inflammatory", "Antitumor"],
+      "food": ["Functional"]
+    },
+    "Berberine": {
+      "agriculture": ["Antimicrobial defense"],
+      "health": ["Antimicrobial", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Palmatine": {
+      "agriculture": ["Antimicrobial defense"],
+      "health": ["Antimicrobial", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Chelerythrine": {
+      "agriculture": ["Antimicrobial defense"],
+      "health": ["Antimicrobial", "Antitumor"],
+      "food": ["Functional"]
+    },
+    "Sanguinarine": {
+      "agriculture": ["Antimicrobial defense"],
+      "health": ["Antimicrobial", "Anti-inflammatory"],
+      "food": ["Functional"]
+    },
+    "Galanthamine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Cholinesterase inhibitor", "Alzheimer's treatment"],
+      "food": ["Functional"]
+    },
+    "Emetine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Antiamoebic", "Emeric"],
+      "food": ["Functional"]
+    },
+    "Ellipticine": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Antitumor", "Anticancer"],
+      "food": ["Functional"]
+    },
+    "Podophyllotoxin": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Antitumor", "Antiviral"],
+      "food": ["Functional"]
+    },
+    "Etoposide": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Anticancer", "Antitumor"],
+      "food": ["Functional"]
+    },
+    "Teniposide": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Anticancer", "Antitumor"],
+      "food": ["Functional"]
+    },
+    "Matairesinol": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Hormonal regulation"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Secoisolariciresinol": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Hormonal regulation"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Arctigenin": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Pinoresinol": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Lariciresinol": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Sesamin": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Cardioprotective"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Syringaresinol": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Honokiol": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Anxiolytic"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Magnolol": {
+      "agriculture": ["Antioxidant defense"],
+      "health": ["Antioxidant", "Anti-inflammatory"],
+      "food": ["Functional", "Preservative"]
+    },
+    "Ginsenoside Rb1": {
+      "agriculture": ["Stress defense"],
+      "health": ["Adaptogen", "Antioxidant", "Neuroprotective"],
+      "food": ["Functional", "Supplement"]
+    },
+    "Ginsenoside Rg1": {
+      "agriculture": ["Stress defense"],
+      "health": ["Adaptogen", "Neuroprotective", "Anti-inflammatory"],
+      "food": ["Functional", "Supplement"]
+    },
+    "Ginsenoside Re": {
+      "agriculture": ["Stress defense"],
+      "health": ["Adaptogen", "Antioxidant", "Cardioprotective"],
+      "food": ["Functional", "Supplement"]
+    },
+    "Ginsenoside Rd": {
+      "agriculture": ["Stress defense"],
+      "health": ["Adaptogen", "Neuroprotective", "Antioxidant"],
+      "food": ["Functional", "Supplement"]
+    },
+    "Saikosaponin A": {
+      "agriculture": ["Pathogen defense"],
+      "health": ["Anti-inflammatory", "Hepatoprotective"],
+      "food": ["Functional"]
+    },
+    "Aescine": {
+      "agriculture": ["Pathogen defense"],
+      "health": ["Anti-inflammatory", "Vasoprotective"],
+      "food": ["Functional"]
+    },
+    "Hederagenin": {
+      "agriculture": ["Pathogen defense"],
+      "health": ["Anti-inflammatory", "Antitumor"],
+      "food": ["Functional"]
+    },
+    "Digitoxin": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Cardiac glycoside", "Cardiotonic"],
+      "food": ["Functional"]
+    },
+    "Digoxin": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Cardiac glycoside", "Cardiotonic"],
+      "food": ["Functional"]
+    },
+    "Ouabain": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Cardiac glycoside", "Cardiotonic"],
+      "food": ["Functional"]
+    },
+    "Bufalin": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Cardiotonic", "Antitumor"],
+      "food": ["Functional"]
+    },
+    "Cinobufagin": {
+      "agriculture": ["Herbivory defense"],
+      "health": ["Cardiotonic", "Antitumor"],
+      "food": ["Functional"]
+    }
+  },
+  "derived_compounds": {
+    "note": "Derivados, glicosídeos, ésteres e outros compostos modificados herdam as funções do composto base. Exemplos: quercetina-3-glucoside herda funções da quercetina; todos os ginsenosídeos derivados têm funções de adaptógeno.",
+    "inheritance_rules": {
+      "glycosides": "Herda funções da aglicona base com maior solubilidade e biodisponibilidade",
+      "esters": "Herda funções do composto base com propriedades modificadas",
+      "derivatives": "Herda funções principais do composto original",
+      "synthetic": "Funções baseadas no composto natural parental"
+    },
+    "examples": {
+      "quercetin_derivatives": "Quercetina-3-glucoside, quercitrin, isoquercitrin, rutin, hyperoside - todas herdam funções antioxidantes, anti-inflamatórias e preservantes da quercetina",
+      "catechin_derivatives": "Epicatechin, gallocatechin, epigallocatechin, theaflavin, procyanidins - todas herdam funções antioxidantes e anti-inflamatórias",
+      "ginsenoside_derivatives": "Todos os ginsenosídeos (Rb1, Rb2, Rc, Rd, Re, Rf, Rg1, Rg2, Rh1, Rh2, etc.) compartilham funções adaptógenas",
+      "anthocyanin_derivatives": "Todas as variações de cianidina, delfinidina, pelargonidina com diferentes açúcares mantêm funções antioxidantes",
+      "flavonoid_derivatives": "Todos os glicosídeos de flavonoides mantêm funções das agliconas base",
+      "terpene_derivatives": "Ésteres e óxidos de terpenos mantêm funções dos terpenos base"
+    }
+  },
+  "functional_summary": {
+    "agriculture": {
+      "total_functions": 12,
+      "main": ["Biopesticide", "Insect repellent", "Antimicrobial defense", "Antioxidant defense", "Herbivory defense", "Stress defense", "Pathogen defense", "UV protection", "Pollinator attraction", "Allelopathy", "Plant defense hormone", "Photosynthetic pigment"]
+    },
+    "health": {
+      "total_functions": 25,
+      "main": ["Antioxidant", "Anti-inflammatory", "Antimicrobial", "Analgesic", "Antitumor", "Anti-inflammatory", "Cardioprotective", "Neuroprotective", "Vasoprotective", "Immunomodulator", "Stimulant", "Anxiolytic", "Antidepressant", "Hepatoprotective", "Antiviral", "Anticancer", "Essential nutrient", "Eye health", "Skin health", "Hormonal regulation", "Adaptogen", "Antidiabetic", "Bronchodilator", "Antihypertensive", "Sedative"]
+    },
+    "food": {
+      "total_functions": 10,
+      "main": ["Natural preservative", "Functional", "Flavoring", "Aroma", "Natural colorant", "Supplement", "Antioxidant", "Color stabilizer", "Energy source", "Preservative"]
+    }
+  }
+}
