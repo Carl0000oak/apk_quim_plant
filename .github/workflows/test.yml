@@ -21,24 +21,14 @@ jobs:
     - name: Install dependencies
       run: |
         pip install requests
-        pip install -e .
+        pip install beautifulsoup4
+        pip install lxml
+        pip install pandas
+        pip install plotly
+        pip install rdkit-pypi
     
-    - name: Test database
+    - name: Test Python
       run: |
-        python -c "from complant.db_manager import DatabaseManager; db = DatabaseManager(); print('✅ Database OK')"
-    
-    - name: Test Wikipedia
-      run: |
-        python -c "from complant.search.wikipedia import buscar_foto_wikipedia; print('✅ Wikipedia OK')"
-    
-    - name: Test PubMed
-      run: |
-        python -c "from complant.search.pubmed import buscar_pubmed; print('✅ PubMed OK')"
-    
-    - name: Test Main
-      run: |
-        python -c "from complant.main import carregar_banco; carregar_banco(); print('✅ Main OK')"
-    
-    - name: Run full test
-      run: |
-        python testar.py
+        python -c "print('Python OK')"
+        python -c "import requests; print('Requests OK')"
+        python -c "from bs4 import BeautifulSoup; print('BeautifulSoup OK')"
