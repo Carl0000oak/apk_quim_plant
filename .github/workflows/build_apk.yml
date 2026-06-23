@@ -10,39 +10,40 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v3
     
     - name: Setup Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v4
       with:
         python-version: '3.10'
     
-    - name: Install Flutter
+    - name: Install Python dependencies
       run: |
-        # Instalar Flutter manualmente
-        git clone https://github.com/flutter/flutter.git -b stable --depth 1
-        echo "$GITHUB_WORKSPACE/flutter/bin" >> $GITHUB_PATH
-        export PATH="$GITHUB_WORKSPACE/flutter/bin:$PATH"
-        flutter doctor -v
-        
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install flet
-        pip install requests
-        pip install beautifulsoup4
-        pip install lxml
-        pip install pandas
-        pip install plotly
-        pip install rdkit-pypi
+        pip install flet pandas plotly rdkit-pypi requests beautifulsoup4 lxml
     
-    - name: Build APK
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.13.9'
+        channel: 'stable'
+    
+    - name: Enable Flutter desktop
       run: |
-        export PATH="$GITHUB_WORKSPACE/flutter/bin:$PATH"
-        flet build apk --verbose
+        flutter config --enable-linux-desktop
+        flutter doctor -v
+    
+    - name: Build APK (non-interactive)
+      run: |
+        # Definir variável para evitar prompts
+        export FLET_NO_INTERACTIVE=1
+        # Construir com --yes
+        flet build apk --yes
+      env:
+        FLET_NO_INTERACTIVE: 1
     
     - name: Upload APK
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v3
       with:
-        name: COMPLANT-APK
+        name: apk_quim_plant
         path: build/apk/*.apk
