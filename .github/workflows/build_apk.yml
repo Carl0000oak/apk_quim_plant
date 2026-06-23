@@ -3,8 +3,6 @@ name: Build APK
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -23,9 +21,14 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flet
-        pip install requests pandas plotly rdkit-pypi beautifulsoup4 lxml
+        pip install requests
+        pip install beautifulsoup4
+        pip install lxml
+        pip install pandas
+        pip install plotly
+        pip install rdkit-pypi
     
-    - name: Build APK with Flet
+    - name: Build APK
       run: |
         flet build apk --verbose
     
