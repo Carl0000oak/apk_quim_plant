@@ -10,36 +10,36 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v3
     
     - name: Setup Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v4
       with:
         python-version: '3.10'
     
-    - name: Install Flutter
+    - name: Install dependencies
+      run: |
+        pip install flet pandas plotly rdkit-pypi requests beautifulsoup4 lxml
+    
+    - name: Setup Flutter (automático)
       uses: subosito/flutter-action@v2
       with:
         flutter-version: '3.13.9'
         channel: 'stable'
     
-    - name: Install dependencies
+    - name: Enable Flutter desktop
       run: |
-        python -m pip install --upgrade pip
-        pip install flet
-        pip install requests
-        pip install beautifulsoup4
-        pip install lxml
-        pip install pandas
-        pip install plotly
-        pip install rdkit-pypi
+        flutter config --enable-linux-desktop
+        flutter doctor -v
     
     - name: Build APK
       run: |
-        flet build apk --verbose
+        # Forçar resposta "y" para instalação do Flutter
+        echo "y" | flet build apk --verbose
     
     - name: Upload APK
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v3
       with:
-        name: COMPLANT-APK
+        name: apk_quim_plant
         path: build/apk/*.apk
