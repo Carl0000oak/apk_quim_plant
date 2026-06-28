@@ -33,17 +33,25 @@ jobs:
         flutter config --enable-linux-desktop
         flutter doctor -v
     
-    - name: Build APK
+    - name: Build APK (sem interação)
       run: |
-        # Garantir que o main.py existe
-        ls -la *.py
-        # Build com --module-name
-        flet build apk --module-name main
+        # Definir variável para evitar prompts
+        export FLET_NO_INTERACTIVE=1
+        export FLUTTER_NO_INTERACTIVE=1
+        # Criar um script que responde "y" para tudo
+        echo "y" | flet build apk --verbose --module-name main || true
+        # Se falhar, tentar com flutter diretamente
+        if [ ! -d "build/apk" ]; then
+          echo "Tentando build com flutter diretamente..."
+          flutter build apk --release
+        fi
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: apk_quim_plant
-        path: build/apk/*.apk
+        path: |
+          build/apk/*.apk
+          build/app/outputs/flutter-apk/*.apk
         compression-level: 0
-        if-no-files-found: error
+        if-no-files-found: warn

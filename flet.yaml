@@ -1,0 +1,20 @@
+name: apk_quim_plant
+version: 1.0.0
+description: "🌿 Análise Fitoquímica de Plantas"
+
+dependencies:
+  flet: ^0.85.3
+
+dev_dependencies:
+  flet_cli: ^0.85.3
+
+assets:
+  - assets/images/
+  - assets/icons/
+
+android:
+  package_name: com.carl0000oak.apk_quim_plant
+  min_sdk_version: 21
+  target_sdk_version: 33
+  version_code: 1
+  version_name: 1.0.0
