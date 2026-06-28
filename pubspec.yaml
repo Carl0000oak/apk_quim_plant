@@ -1,0 +1,23 @@
+name: apk_quim_plant
+version: 1.0.0+1
+description: "🌿 Análise Fitoquímica de Plantas"
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flet: ^0.85.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
