@@ -43,22 +43,14 @@ jobs:
         mkdir -p assets/images
         mkdir -p assets/icons
     
-    - name: Build APK with flet
+    - name: Build APK
       run: |
-        # Usar flet build com pubspec.yaml simplificado
-        yes | flet build apk --module-name main --verbose || echo "Flet build falhou, tentando flutter"
-        # Se falhar, usar flutter diretamente com pub get
-        if [ ! -d "build/apk" ]; then
-          flutter pub get
-          flutter build apk --release
-        fi
+        yes | flet build apk --module-name main --verbose || echo "Flet build falhou"
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: apk_quim_plant
-        path: |
-          build/apk/*.apk
-          build/app/outputs/flutter-apk/*.apk
+        path: build/apk/*.apk
         compression-level: 0
         if-no-files-found: warn
