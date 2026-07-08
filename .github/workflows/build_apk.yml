@@ -21,6 +21,7 @@ jobs:
     - name: Install Python dependencies
       run: |
         pip install flet pandas plotly rdkit-pypi requests beautifulsoup4 lxml
+        pip install flet-cli
     
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
@@ -43,14 +44,19 @@ jobs:
         mkdir -p assets/images
         mkdir -p assets/icons
     
-    - name: Build APK
+    - name: Build APK with flet
       run: |
-        yes | flet build apk --module-name main --verbose || echo "Flet build falhou"
+        yes | flet build apk --module-name main --verbose
+        # Listar o que foi gerado
+        ls -la
+        ls -la build/ || echo "build não existe"
+        find . -name "*.apk" -type f || echo "Nenhum APK encontrado"
     
-    - name: Upload APK
+    - name: Upload APK (se encontrar)
       uses: actions/upload-artifact@v4
       with:
         name: apk_quim_plant
-        path: build/apk/*.apk
+        path: |
+          **/*.apk
         compression-level: 0
         if-no-files-found: warn
