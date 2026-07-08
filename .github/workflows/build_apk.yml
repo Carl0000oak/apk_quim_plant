@@ -21,6 +21,7 @@ jobs:
     - name: Install Python dependencies
       run: |
         pip install flet pandas plotly rdkit-pypi requests beautifulsoup4 lxml
+        pip install flet-cli
     
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
@@ -33,18 +34,26 @@ jobs:
         flutter config --enable-linux-desktop
         flutter doctor -v
     
-    - name: Build APK (sem interação)
+    - name: Install Android SDK dependencies
       run: |
-        # Definir variável para evitar prompts
-        export FLET_NO_INTERACTIVE=1
-        export FLUTTER_NO_INTERACTIVE=1
-        # Criar um script que responde "y" para tudo
-        echo "y" | flet build apk --verbose --module-name main || true
-        # Se falhar, tentar com flutter diretamente
-        if [ ! -d "build/apk" ]; then
-          echo "Tentando build com flutter diretamente..."
-          flutter build apk --release
-        fi
+        yes | sdkmanager "platforms;android-33" "build-tools;33.0.0" || true
+    
+    - name: Create necessary directories
+      run: |
+        mkdir -p assets/images
+        mkdir -p assets/icons
+    
+    - name: Build APK
+      run: |
+        # Garantir que flet está instalado
+        pip install flet
+        # Construir com --include-packages para incluir flet
+        yes | flet build apk --verbose --module-name main --include-packages flet,pandas,plotly,rdkit-pypi,requests,beautifulsoup4,lxml
+    
+    - name: List build output
+      run: |
+        ls -la build/apk/ || echo "build/apk não encontrado"
+        ls -la build/app/outputs/flutter-apk/ || echo "flutter-apk não encontrado"
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
