@@ -21,7 +21,6 @@ jobs:
     - name: Install Python dependencies
       run: |
         pip install flet pandas plotly rdkit-pypi requests beautifulsoup4 lxml
-        pip install flet-cli
     
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
@@ -44,19 +43,53 @@ jobs:
         mkdir -p assets/images
         mkdir -p assets/icons
     
-    - name: Build APK with flet
+    - name: Prepare Flutter project
       run: |
-        yes | flet build apk --module-name main --verbose
-        # Listar o que foi gerado
-        ls -la
-        ls -la build/ || echo "build não existe"
-        find . -name "*.apk" -type f || echo "Nenhum APK encontrado"
+        # Criar projeto Flutter vazio
+        flutter create --platforms=android .
+        # Substituir main.dart pelo nosso app
+        cat > lib/main.dart << 'EOF'
+        import 'package:flutter/material.dart';
+        import 'package:flet/flet.dart' as flet;
+        
+        void main() {
+          flet.Flet app = flet.Flet();
+          app.entrypoint = 'main';
+          app.run();
+        }
+        EOF
+        
+        # Atualizar pubspec.yaml com flet
+        cat > pubspec.yaml << 'EOF'
+        name: apk_quim_plant
+        version: 1.0.0
+        description: "🌿 Análise Fitoquímica de Plantas"
+        environment:
+          sdk: '>=3.0.0 <4.0.0'
+        dependencies:
+          flutter:
+            sdk: flutter
+          flet: 0.13.0
+        flutter:
+          uses-material-design: true
+          assets:
+            - assets/images/
+            - assets/icons/
+        EOF
     
-    - name: Upload APK (se encontrar)
+    - name: Build APK
+      run: |
+        flutter pub get
+        flutter build apk --release
+        # Listar APKs
+        find . -name "*.apk" -type f
+        ls -la build/app/outputs/flutter-apk/ || echo "APK não encontrado"
+    
+    - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: apk_quim_plant
         path: |
-          **/*.apk
+          build/app/outputs/flutter-apk/*.apk
         compression-level: 0
         if-no-files-found: warn
