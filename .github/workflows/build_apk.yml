@@ -21,7 +21,6 @@ jobs:
     - name: Install Python dependencies
       run: |
         pip install flet pandas plotly rdkit-pypi requests beautifulsoup4 lxml
-        pip install flet-cli
     
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
@@ -37,28 +36,26 @@ jobs:
     - name: Install Android SDK dependencies
       run: |
         yes | sdkmanager "platforms;android-33" "build-tools;33.0.0" || true
+        yes | flutter doctor --android-licenses || true
     
     - name: Create necessary directories
       run: |
         mkdir -p assets/images
         mkdir -p assets/icons
     
-    - name: Build APK
+    - name: Build APK with Flutter directly
       run: |
-        # Build simples sem argumentos extras
-        yes | flet build apk --verbose --module-name main
-    
-    - name: List build output
-      run: |
-        ls -la build/apk/ || echo "build/apk não encontrado"
-        ls -la build/app/outputs/flutter-apk/ || echo "flutter-apk não encontrado"
+        # Criar um projeto Flutter simples
+        flutter create --platforms=android .
+        # Copiar assets
+        cp -r assets/ android/app/src/main/assets/ || true
+        # Construir APK
+        flutter build apk --release
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: apk_quim_plant
-        path: |
-          build/apk/*.apk
-          build/app/outputs/flutter-apk/*.apk
+        path: build/app/outputs/flutter-apk/*.apk
         compression-level: 0
         if-no-files-found: warn
