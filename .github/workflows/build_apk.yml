@@ -42,24 +42,13 @@ jobs:
       run: |
         mkdir -p assets/images
         mkdir -p assets/icons
+        cp -r assets/ assets/ 2>/dev/null || true
     
     - name: Prepare Flutter project
       run: |
         # Criar projeto Flutter vazio
-        flutter create --platforms=android .
-        # Substituir main.dart pelo nosso app
-        cat > lib/main.dart << 'EOF'
-        import 'package:flutter/material.dart';
-        import 'package:flet/flet.dart' as flet;
-        
-        void main() {
-          flet.Flet app = flet.Flet();
-          app.entrypoint = 'main';
-          app.run();
-        }
-        EOF
-        
-        # Atualizar pubspec.yaml com flet
+        yes | flutter create --platforms=android .
+        # Corrigir pubspec.yaml para flet 0.13.0
         cat > pubspec.yaml << 'EOF'
         name: apk_quim_plant
         version: 1.0.0
@@ -70,20 +59,68 @@ jobs:
           flutter:
             sdk: flutter
           flet: 0.13.0
+          flutter_web_plugins:
+            sdk: flutter
+        dev_dependencies:
+          flutter_test:
+            sdk: flutter
+          flutter_lints: ^3.0.0
         flutter:
           uses-material-design: true
           assets:
             - assets/images/
             - assets/icons/
         EOF
+        # Substituir main.dart
+        cat > lib/main.dart << 'EOF'
+        import 'package:flutter/material.dart';
+        
+        void main() {
+          runApp(const MyApp());
+        }
+        
+        class MyApp extends StatelessWidget {
+          const MyApp({super.key});
+        
+          @override
+          Widget build(BuildContext context) {
+            return MaterialApp(
+              title: 'COMPLANT',
+              theme: ThemeData(
+                primarySwatch: Colors.green,
+                useMaterial3: true,
+              ),
+              home: const Scaffold(
+                body: Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.grass, size: 80, color: Colors.green),
+                      SizedBox(height: 20),
+                      Text(
+                        '🌿 COMPLANT',
+                        style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: Colors.green),
+                      ),
+                      SizedBox(height: 10),
+                      Text(
+                        'Análise Fitoquímica de Plantas',
+                        style: TextStyle(fontSize: 16, color: Colors.grey),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            );
+          }
+        }
+        EOF
     
     - name: Build APK
       run: |
         flutter pub get
         flutter build apk --release
-        # Listar APKs
-        find . -name "*.apk" -type f
         ls -la build/app/outputs/flutter-apk/ || echo "APK não encontrado"
+        find . -name "*.apk" -type f
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
