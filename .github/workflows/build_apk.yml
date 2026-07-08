@@ -29,11 +29,6 @@ jobs:
         channel: 'stable'
         cache: true
     
-    - name: Enable Flutter desktop
-      run: |
-        flutter config --enable-linux-desktop
-        flutter doctor -v
-    
     - name: Install Android SDK dependencies
       run: |
         yes | sdkmanager "platforms;android-33" "build-tools;33.0.0" || true
