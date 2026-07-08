@@ -34,6 +34,11 @@ jobs:
         yes | sdkmanager "platforms;android-33" "build-tools;33.0.0" || true
         yes | flutter doctor --android-licenses || true
     
+    - name: Install GTK libraries (required for Flutter doctor)
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libgtk-3-dev mesa-utils
+    
     - name: Create necessary directories
       run: |
         mkdir -p assets/images
