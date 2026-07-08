@@ -45,10 +45,8 @@ jobs:
     
     - name: Build APK
       run: |
-        # Garantir que flet está instalado
-        pip install flet
-        # Construir com --include-packages para incluir flet
-        yes | flet build apk --verbose --module-name main --include-packages flet,pandas,plotly,rdkit-pypi,requests,beautifulsoup4,lxml
+        # Build simples sem argumentos extras
+        yes | flet build apk --verbose --module-name main
     
     - name: List build output
       run: |
