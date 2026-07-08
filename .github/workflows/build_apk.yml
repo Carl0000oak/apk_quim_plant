@@ -1,4 +1,4 @@
-name: Criar APK
+name: Criar APK Flet
 
 on:
   push:
@@ -20,12 +20,12 @@ jobs:
     
     - name: Install Python dependencies
       run: |
-        pip install flet pandas plotly rdkit-pypi requests beautifulsoup4 lxml
+        pip install -r requirements.txt
     
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.13.9'
+        flutter-version: '3.24.0'
         channel: 'stable'
     
     - name: Enable Flutter desktop
@@ -42,91 +42,26 @@ jobs:
       run: |
         mkdir -p assets/images
         mkdir -p assets/icons
-        cp -r assets/ assets/ 2>/dev/null || true
+        touch assets/images/.gitkeep
+        touch assets/icons/.gitkeep
     
-    - name: Prepare Flutter project
+    - name: Build APK with Flet CLI
       run: |
-        # Criar projeto Flutter vazio
-        yes | flutter create --platforms=android .
-        # Corrigir pubspec.yaml para flet 0.13.0
-        cat > pubspec.yaml << 'EOF'
-        name: apk_quim_plant
-        version: 1.0.0
-        description: "🌿 Análise Fitoquímica de Plantas"
-        environment:
-          sdk: '>=3.0.0 <4.0.0'
-        dependencies:
-          flutter:
-            sdk: flutter
-          flet: 0.13.0
-          flutter_web_plugins:
-            sdk: flutter
-        dev_dependencies:
-          flutter_test:
-            sdk: flutter
-          flutter_lints: ^3.0.0
-        flutter:
-          uses-material-design: true
-          assets:
-            - assets/images/
-            - assets/icons/
-        EOF
-        # Substituir main.dart
-        cat > lib/main.dart << 'EOF'
-        import 'package:flutter/material.dart';
-        
-        void main() {
-          runApp(const MyApp());
-        }
-        
-        class MyApp extends StatelessWidget {
-          const MyApp({super.key});
-        
-          @override
-          Widget build(BuildContext context) {
-            return MaterialApp(
-              title: 'COMPLANT',
-              theme: ThemeData(
-                primarySwatch: Colors.green,
-                useMaterial3: true,
-              ),
-              home: const Scaffold(
-                body: Center(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(Icons.grass, size: 80, color: Colors.green),
-                      SizedBox(height: 20),
-                      Text(
-                        '🌿 COMPLANT',
-                        style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: Colors.green),
-                      ),
-                      SizedBox(height: 10),
-                      Text(
-                        'Análise Fitoquímica de Plantas',
-                        style: TextStyle(fontSize: 16, color: Colors.grey),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            );
-          }
-        }
-        EOF
+        flet build apk --project complant_app.py --product com.carl0000oak.apk_quim_plant
     
-    - name: Build APK
+    - name: Find APK
       run: |
-        flutter pub get
-        flutter build apk --release
-        ls -la build/app/outputs/flutter-apk/ || echo "APK não encontrado"
-        find . -name "*.apk" -type f
+        echo "Procurando APK..."
+        find . -name "*.apk" -type f 2>/dev/null || echo "Nenhum APK encontrado"
+        ls -la build/ 2>/dev/null || echo "Diretório build não encontrado"
+        ls -la .flet/ 2>/dev/null || echo "Diretório .flet não encontrado"
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: apk_quim_plant
         path: |
-          build/app/outputs/flutter-apk/*.apk
+          build/*.apk
+          .flet/build/*.apk
         compression-level: 0
         if-no-files-found: warn
