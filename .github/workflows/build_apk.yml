@@ -43,19 +43,22 @@ jobs:
         mkdir -p assets/images
         mkdir -p assets/icons
     
-    - name: Build APK with Flutter directly
+    - name: Build APK with flet
       run: |
-        # Criar um projeto Flutter simples
-        flutter create --platforms=android .
-        # Copiar assets
-        cp -r assets/ android/app/src/main/assets/ || true
-        # Construir APK
-        flutter build apk --release
+        # Usar flet build com pubspec.yaml simplificado
+        yes | flet build apk --module-name main --verbose || echo "Flet build falhou, tentando flutter"
+        # Se falhar, usar flutter diretamente com pub get
+        if [ ! -d "build/apk" ]; then
+          flutter pub get
+          flutter build apk --release
+        fi
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: apk_quim_plant
-        path: build/app/outputs/flutter-apk/*.apk
+        path: |
+          build/apk/*.apk
+          build/app/outputs/flutter-apk/*.apk
         compression-level: 0
         if-no-files-found: warn
