@@ -46,6 +46,18 @@ jobs:
         touch assets/images/.gitkeep
         touch assets/icons/.gitkeep
     
+    - name: Verify requirements.txt content
+      run: |
+        echo "=== Content of requirements.txt ==="
+        cat requirements.txt
+        echo "=== End of requirements.txt ==="
+    
+    - name: Clean Flet and pip cache
+      run: |
+        rm -rf ~/.flet
+        pip cache purge
+        rm -rf build/
+    
     - name: Build APK with Flet CLI
       run: |
         flet build apk --project complant_app.py --product com.carl0000oak.apk_quim_plant
