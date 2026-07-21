@@ -3,10 +3,10 @@ version: 1.0.0
 description: "🌿 Análise Fitoquímica de Plantas"
 
 dependencies:
-  flet: ^0.85.3
+  flet: ^0.86.1
 
 dev_dependencies:
-  flet_cli: ^0.85.3
+  flet_cli: ^0.86.1
 
 assets:
   - assets/images/
